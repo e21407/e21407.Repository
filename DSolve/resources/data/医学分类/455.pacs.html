@@ -1,0 +1,2004 @@
+<!DOCTYPE html>
+<!--STATUS OK-->
+<html>
+
+
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta name="referrer" content="always" />
+<meta name="description" content="PACS系统是Picture Archiving and Communication Systems的缩写，意为影像归档和通信系统。它是应用在医院影像科室的系统，主要的任务就是把日常产生的各种医学影像（包括核磁，CT，超声，各种X光机，各种红外仪、显微仪等设备产生的图像）通过各种接口（模拟，DICOM，网络）以数字化的方式海量保存起来，当...">
+<title>PACS系统_百度百科</title>
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="icon" sizes="any" mask href="//www.baidu.com/img/baidu.svg">
+
+<meta name="keywords" content="PACS系统 pacs PACS系统简要介绍 PACS系统主要优点 PACS系统发展趋势 PACS系统结构流程 PACS系统架构数据">
+<meta name="image" content="https://bkssl.bdimg.com/cms/static/baike.png">
+<script type="text/javascript">
+  // 配置 PD 监控。
+  window.alogObjectConfig = {
+    product: '103',
+    page: '103_1',
+    speed: {
+      sample: '0.008'
+    },
+    monkey: {
+      sample: '1',
+      hid: '1533'
+    },
+    exception: { 
+      sample: '0.004'
+    },
+    feature: {
+      sample: '0.004'
+    },
+    csp: {
+      sample: '0.008',
+      'default-src': [
+        {match: '*.baidu.com,*.bdimg.com,localhost', target: 'Accept'},
+        {match: '*', target: 'Accept,Warn'}
+      ]
+    }
+  };
+
+  void function(a,b,c,d,e,f,g){a.alogObjectName=e,a[e]=a[e]||function(){(a[e].q=a[e].q||[]).push(arguments)},a[e].l=a[e].l||+new Date,d="https:"===a.location.protocol?"https://fex.bdstatic.com"+d:"http://fex.bdstatic.com"+d;var h=!0;if(a.alogObjectConfig&&a.alogObjectConfig.sample){var i=Math.random();a.alogObjectConfig.rand=i,i>a.alogObjectConfig.sample&&(h=!1)}h&&(f=b.createElement(c),f.async=!0,f.src=d+"?v="+~(new Date/864e5)+~(new Date/864e5),g=b.getElementsByTagName(c)[0],g.parentNode.insertBefore(f,g))}(window,document,"script","/hunter/alog/alog.min.js","alog"),void function(){function a(){}window.PDC={mark:function(a,b){alog("speed.set",a,b||+new Date),alog.fire&&alog.fire("mark")},init:function(a){alog("speed.set","options",a)},view_start:a,tti:a,page_ready:a}}();
+  void function(n){var o=!1;n.onerror=function(n,e,t,c){var i=!0;return!e&&/^script error/i.test(n)&&(o?i=!1:o=!0),i&&alog("exception.send","exception",{msg:n,js:e,ln:t,col:c}),!1},alog("exception.on","catch",function(n){alog("exception.send","exception",{msg:n.msg,js:n.path,ln:n.ln,method:n.method,flag:"catch"})})}(window);
+</script>
+<meta name="csrf-token" content="">
+
+<!--[if lte IE 9]>
+<script>
+    (function() {
+      var e = "abbr,article,aside,audio,canvas,datalist,details,dialog,eventsource,figure,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,time,video".split(","),
+        i = e.length;
+      while (i--) {
+        document.createElement(e[i]);
+      }
+    })();
+  </script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/pkg/wiki-lemma_7bb52c1.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-common/pkg/wiki-common-base_3bd3a2e.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-common/widget/component/userbar/userbar_10e138c.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-common/widget/component/userbar-n/userbar-n_bcd805f.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-common/widget/component/headTabBar/headTabBar_c3a1b84.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-common/widget/component/searchbar-n/searchbar_a5024db.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/pkg/wiki-lemma-module_6fda5e3.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-common/widget/component/navbar/navbar_0697c78.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/tools/announcement/announcement_126f5e6.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-common/widget/component/unameFiller/unameFiller_d631c34.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/tools/label/label_ca156c6.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/tools/newSideShare/sideShare_2af1cbd.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/tools/video/pageMask/pageMask_ff9a193.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-common/widget/component/userCard/userCard_f83cf16.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/mainContent_98e3702.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/lemmaRelation/lemmaRelation_ac86a59.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/configModule/zhixin/zhixin_0aeccef.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/configModule/sideAuth/sideAuth_c13d91a.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-common/widget/component/footer/footer_main_9d4d7ff.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/tools/searchHeader/toolButtons-n/toolButtons-n_6e90fdd.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/tools/searchHeader/toolButtons-n/userInfo-n_7e90184.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/tools/searchHeader/searchHeader-n_8b1fc24.css"/></head>
+
+<script type="text/javascript">
+    alog('speed.set', 'ht', +new Date);
+</script>
+<script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?55b574651fcae74b0a9f1cf9c8d7c93a";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+
+<body class="wiki-lemma normal">
+
+
+<div class="header-wrapper pc-header-new">
+<div class="topbar cmn-clearfix">
+<ul class="wgt-userbar" id="j-wgt-userbar">
+<li>
+<a href="http://www.baidu.com/">百度首页</a>
+</li>
+</ul>
+<div class="separator"></div>
+<div class="wiki-common-headTabBar">
+<a href="https://www.baidu.com/" nslog="normal" nslog-type="10600112" data-href="https://www.baidu.com/s?ie=utf-8&fr=bks0000&wd=">网页</a>
+<a href="http://news.baidu.com/" nslog="normal" nslog-type="10600112" data-href="http://news.baidu.com/ns?tn=news&cl=2&rn=20&ct=1&fr=bks0000&ie=utf-8&word=">新闻</a>
+<a href="https://tieba.baidu.com/" nslog="normal" nslog-type="10600112" data-href="https://tieba.baidu.com/f?ie=utf-8&fr=bks0000&kw=">贴吧</a>
+<a href="https://zhidao.baidu.com/" nslog="normal" nslog-type="10600112" data-href="https://zhidao.baidu.com/search?pn=0&&rn=10&lm=0&fr=bks0000&word=">知道</a>
+<a href="http://music.baidu.com/" nslog="normal" nslog-type="10600112" data-href="http://music.baidu.com/search?f=ms&ct=134217728&ie=utf-8&rn=&lm=-1&pn=30&fr=bks0000&key=">音乐</a>
+<a href="http://image.baidu.com/" nslog="normal" nslog-type="10600112" data-href="http://image.baidu.com/search/index?tn=baiduimage&ct=201326592&lm=-1&cl=2&nc=1&ie=utf-8&word=">图片</a>
+<a href="http://v.baidu.com/" nslog="normal" nslog-type="10600112" data-href="http://v.baidu.com/v?ct=301989888&rn=20&pn=0&db=0&s=22&ie=utf-8&fr=bks0000&word=">视频</a>
+<a href="http://map.baidu.com/" nslog="normal" nslog-type="10600112" data-href="http://map.baidu.com/m?ie=utf-8&fr=bks0000&word=">地图</a>
+<a href="https://wenku.baidu.com/" nslog="normal" nslog-type="10600112" data-href="https://wenku.baidu.com/search?lm=0&od=0&ie=utf-8&fr=bks0000&word=">文库</a>
+<b class="baike">百科</b>
+</div>
+</div>
+<div class="header">
+<div class="layout">
+<div class="wgt-searchbar wgt-searchbar-new wgt-searchbar-main cmn-clearfix wgt-searchbar-large">
+<div class="logo-container">
+<a class="logo cmn-inline-block" title="到百科首页" href="/">
+<span class="cmn-baike-logo">
+<em class="cmn-icon cmn-icons cmn-icons_logo-bai"></em>
+<em class="cmn-icon cmn-icons cmn-icons_logo-du"></em>
+<em class="cmn-icon cmn-icons cmn-icons_logo-baike"></em>
+</span>
+</a>
+</div>
+<div class="search">
+<div class="form">
+<form id="searchForm" action="/search/word" method="GET" target="_self">
+<input id="query" nslog="normal" nslog-type="10080011" name="word" type="text" autocomplete="off" autocorrect="off" value="pacs" /><button id="search" nslog="normal" nslog-type="10080008" type="button">进入词条</button><button id="searchLemma" nslog="normal" nslog-type="10080009" type="button">全站搜索</button><a class="help" href="/help" nslog="normal" nslog-type="10080010" target="_blank">帮助</a>
+</form>
+<form id="searchLemmaForm" action="/search" method="GET" target="_self">
+<input id="searchLemmaQuery" name="word" type="hidden" />
+<input name="pn" type="hidden" value="0" />
+<input name="rn" type="hidden" value="0" />
+<input name="enc" type="hidden" value="utf8" />
+</form>
+<ul id="suggestion" class="suggestion">
+<div class="sug"></div>
+<li class="extra">
+<span id="close" nslog="normal" nslog-type="10080012">关闭</span>
+</li>
+</ul>
+</div></div>
+</div>
+<div class="declare-wrap" id="J-declare-wrap">
+<div class="declare" id="J-declare">声明：百科词条人人可编辑，词条创建和修改均免费，绝不存在官方及代理商付费代编，请勿上当受骗。<a class="declare-details" target="_blank" href="/common/declaration">详情>></a>
+<div class="close-btn" id="J-declare-close">
+<em class="cmn-icon cmn-icons cmn-icons_close"></em>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="navbar-wrapper">
+<div class="wgt-navbar">
+<div class="navbar-bg">
+<div class="navbar-bg-top">
+<div class="navbar-content layout">
+<div class="navbar-content-box">
+<dl class="index ">
+<dt><a href="/">首页</a></dt>
+</dl>
+<dl class="cat ">
+<dt><a>分类</a></dt>
+<dd>
+<div><a href="/art" target="_blank" class="art">艺术</a></div>
+<div><a href="/science" target="_blank" class="technology">科学</a></div>
+<div><a href="/ziran" target="_blank">自然</a></div>
+<div><a href="/wenhua" target="_blank">文化</a></div>
+<div><a href="/dili" target="_blank">地理</a></div>
+<div><a href="/shenghuo" target="_blank">生活</a></div>
+<div><a href="/shehui" target="_blank">社会</a></div>
+<div><a href="/renwu" target="_blank">人物</a></div>
+<div><a href="/jingji" target="_blank">经济</a></div>
+<div><a href="/tiyu" target="_blank">体育</a></div>
+<div><a href="/lishi" target="_blank">历史</a></div>
+</dd>
+</dl>
+<dl class="special ">
+<dt><a>特色百科</a></dt>
+<dd>
+<div><a href="/calendar/" target="_blank">历史上的今天</a></div>
+<div><a href="/museum/" target="_blank">数字博物馆</a></div>
+<div><a href="/item/史记·2016?fr=navbar" target="_blank">史记·2016</a></div>
+<div><a href="/city/" target="_blank">城市百科</a></div>
+<div><a href="/operation/worldwar2" target="_blank">二战百科</a></div>
+<div><a href="/feiyi?fr=dhlfeiyi" target="_blank">非遗百科</a></div>
+</dd>
+</dl>
+<dl class="user" >
+<dt><a>用户</a></dt>
+<dd>
+<div><a href="/kedou/" target="_blank">蝌蚪团</a></div>
+<div><a href="/event/ranmeng/" target="_blank">燃梦计划</a></div>
+<div><a href="/task/" target="_blank">百科任务</a></div>
+<div><a href="/mall/" target="_blank">百科商城</a></div>
+</dd>
+</dl>
+<dl class="cooperation" >
+<dt><a>权威合作</a></dt>
+<dd>
+<div><a href="/operation/cooperation#joint" target="_blank">合作模式</a></div>
+<div><a href="/operation/cooperation#issue" target="_blank">常见问题</a></div>
+<div><a href="/operation/cooperation#connection" target="_blank">联系方式</a></div>
+</dd>
+</dl>
+<dl class="mobile" >
+<dt><a>手机百科</a></dt>
+<dd>
+<div><a href="/m#wap" target="_blank">网页版</a></div>
+</dd>
+</dl>
+<div class="usercenter">
+<div><a href="/usercenter" target="_blank"><em class="cmn-icon cmn-icons cmn-icons_navbar-usercenter"></em>个人中心</a></div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="body-wrapper">
+<div class="before-content">
+</div>
+<div class="content-wrapper">
+<div class="content">
+<div class="personal-content">
+</div>
+<div class="main-content">
+<a class="posterFlag expert-icon " href="javascript:;" title="权威专家认证词条"></a>
+<div class="top-tool">
+<a class="add-sub-icon top-tool-icon" href="javascript:;" title="添加义项" nslog-type="50000101">
+<em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_add-subLemma-solid"></em>
+</a>
+<a href="/divideload/PACS%E7%B3%BB%E7%BB%9F" title="拆分词条" target="_blank" class="split-icon top-tool-icon" style="display:none;" nslog-type="50000104">
+<em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_lemma-split"></em>
+</a>
+<div class="top-collect top-tool-icon" nslog="area" nslog-type="50000102">
+<em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_star-solid"></em>
+<span class="collect-text">收藏</span>
+<div class="collect-tip">查看<a href="/uc/favolemma" target="_blank">我的收藏</a></div>
+</div>
+<a href="javascript:void(0);" id="j-top-vote" class="top-vote top-tool-icon" nslog-type="10060801">
+<em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_zan-solid"></em>
+<span class="vote-count">0</span>
+<span class="vote-tip">有用+1</span>
+<span class="voted-tip">已投票</span>
+</a><div class="bksharebuttonbox top-share">
+<a class="top-share-icon top-tool-icon" nslog-type="9067">
+<em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_share"></em>
+<span class="share-count" id="j-topShareCount">0</span>
+</a>
+<div class="new-top-share" id="top-share">
+<ul class="top-share-list">
+<li class="top-share-item">
+<a class="share-link bds_qzone"  href="javascript:void(0);" nslog-type="10060501">
+<em class="cmn-icon cmn-icons cmn-icons_logo-qzone"></em>
+</a>
+</li>
+<li class="top-share-item">
+<a class="share-link bds_tsina" href="javascript:void(0);" nslog-type="10060701">
+<em class="cmn-icon cmn-icons cmn-icons_logo-sina-weibo"></em>
+</a>
+</li>
+<li class="top-share-item">
+<a class="bds_wechat"  href="javascript:void(0);" nslog-type="10060401">
+<em class="cmn-icon cmn-icons cmn-icons_logo-wechat"></em>
+</a>
+</li>
+<li class="top-share-item">
+<a class="share-link bds_tqq"  href="javascript:void(0);" nslog-type="10060601">
+<em class="cmn-icon cmn-icons cmn-icons_logo-qq"></em>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div style="width:0;height:0;clear:both"></div><dl class="lemmaWgt-lemmaTitle lemmaWgt-lemmaTitle-">
+<dd class="lemmaWgt-lemmaTitle-title">
+<h1 >PACS系统</h1>
+<a href="javascript:;" class="edit-lemma cmn-btn-hover-blue cmn-btn-28 j-edit-link"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+<a class="lock-lemma" target="_blank" href="/view/10812319.htm" title="锁定"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_lock-lemma"></em>锁定</a>
+</dd>
+</dl><span class="view-tip-panel">
+<a class="viewTip-icon" href="/subview/71844/10028254.htm" target="_blank" title="同义词">同义词</a>
+<span class="viewTip-fromTitle">pacs</span>一般指PACS系统
+</span>
+<div class="authorityListPrompt">
+<div class="main-content-zj">
+本词条由<a href="http://www.cast.org.cn" target="_blank" class="nslog:7175">“科普中国”百科科学词条编写与应用工作项目</a>
+审核
+。</div>
+</div>
+<div class="promotion-declaration">
+</div><div class="lemma-summary" label-module="lemmaSummary">
+<div class="para" label-module="para">PACS系统是Picture Archiving and Communication Systems的缩写，意为影像归档和通信系统。它是应用在医院影像科室的系统，主要的任务就是把日常产生的各种医学影像（包括核磁，CT，超声，各种X光机，各种红外仪、显微仪等设备产生的图像）通过各种接口（模拟，DICOM，网络）以<a target=_blank href="/item/%E6%95%B0%E5%AD%97%E5%8C%96">数字化</a>的方式海量保存起来，当需要的时候在一定的授权下能够很快的调回使用，同时增加一些辅助诊断管理功能。它在各种影像<a target=_blank href="/item/%E8%AE%BE%E5%A4%87%E9%97%B4">设备间</a>传输数据和组织存储数据具有重要作用。</div>
+</div>
+<div class="configModuleBanner">
+</div><div class="basic-info cmn-clearfix">
+<dl class="basicInfo-block basicInfo-left">
+<dt class="basicInfo-item name">中文名</dt>
+<dd class="basicInfo-item value">
+PACS系统
+</dd>
+<dt class="basicInfo-item name">外文名</dt>
+<dd class="basicInfo-item value">
+Picture Archiving and Communication Systems
+</dd>
+<dt class="basicInfo-item name">概 述</dt>
+<dd class="basicInfo-item value">
+意为影像归档和通信系统
+</dd>
+</dl><dl class="basicInfo-block basicInfo-right">
+<dt class="basicInfo-item name">软件趋势</dt>
+<dd class="basicInfo-item value">
+起源 现状 趋势
+</dd>
+<dt class="basicInfo-item name">结构流程</dt>
+<dd class="basicInfo-item value">
+结构层次 工作流程
+</dd>
+<dt class="basicInfo-item name">架构数据</dt>
+<dd class="basicInfo-item value">
+存储技术架构 文件格式 数据结构
+</dd>
+</dl></div>
+<div class="lemmaWgt-lemmaCatalog">
+<div class="lemma-catalog">
+<h2 class="block-title">目录</h2>
+<div class="catalog-list column-3">
+<ol>
+<li class="level1">
+<span class="index">1</span>
+<span class="text"><a href="#1">简要介绍</a></span>
+</li>
+<li class="level1">
+<span class="index">2</span>
+<span class="text"><a href="#2">主要优点</a></span>
+</li>
+<li class="level1">
+<span class="index">3</span>
+<span class="text"><a href="#3">发展趋势</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#3_1">起源</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#3_2">现状</a></span>
+</li>
+</ol><ol><li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#3_3">趋势</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#3_4">标准化进程</a></span>
+</li>
+<li class="level1">
+<span class="index">4</span>
+<span class="text"><a href="#4">结构流程</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#4_1">结构层次</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#4_2">工作流程</a></span>
+</li>
+</ol><ol><li class="level1">
+<span class="index">5</span>
+<span class="text"><a href="#5">架构数据</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#5_1">存储技术架构</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#5_2">文件格式</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#5_3">数据结构</a></span>
+</li>
+</ol>
+
+</div>
+</div>
+</div>
+<div class="anchor-list">
+<a name="1" class="lemma-anchor para-title" ></a>
+<a name="sub1053077_1" class="lemma-anchor " ></a>
+<a name="简要介绍" class="lemma-anchor " ></a>
+</div><div class="para-title level-2" label-module="para-title">
+<h2 class="title-text"><span class="title-prefix">PACS系统</span>简要介绍</h2>
+</div>
+<div class="para" label-module="para">随着数字化信息时代的来临，诊断成像设备中各种先进<a target=_blank href="/item/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E6%9C%AF">计算机技术</a>和数字化图像技术的应用为医学影像信息系统的发展奠定了基础。历经逾百年发展，医学影像成像技术也从最初的X射线成像发展到现在的各种数字成像技术。</div>
+<div class="para" label-module="para"><b>什么是医学影像信息系统</b></div>
+<div class="para" label-module="para">医学影像信息系统简称PACS(Picture Archiving and Communication Systems)，与临床信息系统（Clinical Information System, CIS）、放射学信息系统(Radiology Information System, RIS)、<a target=_blank href="/item/%E5%8C%BB%E9%99%A2%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F">医院信息系统</a>(Hospital Information System, HIS)、<a target=_blank href="/item/%E5%AE%9E%E9%AA%8C%E5%AE%A4%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F">实验室信息系统</a>（Laboratory Information System, LIS）同属医院信息系统。</div>
+<div class="para" label-module="para">医学影像信息系统狭义上是指基于医学影像存储与通信系统，从技术上解决图像处理技术的管理系统；临床信息系统是指支持医院医护人员的临床活动，收集和处理病人的临床医疗信息的信息管理系统；放射学信息系统是指以放射科的登记、分诊、影像诊断报告以及放射科的各项信息查询、统计等基于流程管理的信息系统；<a target=_blank href="/item/%E5%8C%BB%E9%99%A2%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F">医院信息系统</a>是指覆盖医院所有业务和业务全过程的信息管理系统；<a target=_blank href="/item/%E5%AE%9E%E9%AA%8C%E5%AE%A4%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F">实验室信息系统</a>是一类用来处理实验室过程信息的信息系统。</div>
+<div class="para" label-module="para">在现代医疗行业，医学影像信息系统是指包含了包括了RIS，以DICOM3.0国际标准设计，以高性能服务器、网络及存储设备构成硬件<a target=_blank href="/item/%E6%94%AF%E6%8C%81%E5%B9%B3%E5%8F%B0">支持平台</a>，以大型<a target=_blank href="/item/%E5%85%B3%E7%B3%BB%E5%9E%8B%E6%95%B0%E6%8D%AE%E5%BA%93">关系型数据库</a>作为数据和图像的存储管理工具，以医疗影像的采集、传输、存储和诊断为核心，是集影像采集传输与存储管理、影像诊断查询与报告管理、综合信息管理等综合应用于一体的综合应用系统，主要的任务就是把医院影像科日常产生的各种医学影像（包括核磁、CT、DR、超声、各种X光机等设备产生的图像）通过DICOM3.0国际标准接口（中国市场大多为模拟，DICOM，网络等接口）以<a target=_blank href="/item/%E6%95%B0%E5%AD%97%E5%8C%96">数字化</a>的方式海量保存起来，当需要的时候在一定的授权下能够很快的调回使用，同时增加一些辅助诊断管理功能。</div>
+<div class="para" label-module="para"><b>对医学影像信息系统应用的需求</b></div>
+<div class="para" label-module="para">随着现代医学的发展，医疗机构的诊疗工作越来越多依赖医学影像的检查（X线、CT、MR、超声、窥镜、血管造影等）。传统的医学影像管理方法（胶片、图片、资料）诸此大量日积月累、年复一年存储保管，堆积如山，给查找和调阅带来诸多困难，丢失影片和资料时有发生。已无法适应现代医院中对如此大量和大范围医学影像的管理要求。采用数字化影像管理方法来解决这些问题已经得到公认。随着计算机和<a target=_blank href="/item/%E9%80%9A%E8%AE%AF%E6%8A%80%E6%9C%AF">通讯技术</a>发展，为数字化影像和传输奠定基础。目前国内众多医院已完成医院信息化管理，其影像设备逐渐更新为数字化，已具备了联网和实施影像信息系统的基本条件，实现彻底无胶片放射科和数字化医院，已经成为现代化医疗不可阻挡的潮流。</div><div class="anchor-list">
+<a name="2" class="lemma-anchor para-title" ></a>
+<a name="sub1053077_2" class="lemma-anchor " ></a>
+<a name="主要优点" class="lemma-anchor " ></a>
+</div><div class="para-title level-2" label-module="para-title">
+<h2 class="title-text"><span class="title-prefix">PACS系统</span>主要优点</h2>
+</div>
+<div class="para" label-module="para">1）减少物料成本：引入PACS系统后，图像均采用数字化存储，节省了大量的介质（纸张，胶片等）。</div>
+<div class="para" label-module="para">2）减少管理成本：数字化存储带来的另外一个好处就是不失真，同时占地小，节省了大量的介质管理费用。</div>
+<div class="para" label-module="para">3）提高工作效率：数字化使得在任何有网络的地方调阅影像成为可能，比如借片和调阅病人以往病历等。原来需要很长周期和大量人力参与的事情现只需轻松点击即可实现，大大提高了医生的工作效率。医生工作效率的提高就意味着每天能接待的病人数增加，给医院带来效益。</div>
+<div class="para" label-module="para">4）提高医院的医疗水平：通过数字化，可以大大简化医生的工作流程，把更多的时间和精力放在诊断上，有助于提高医院的诊断水平。同时各种图像处理技术的引进使得以往难以察觉的病变变得清晰可见。方便的以往病历的调阅还使得医生能够参考借鉴以前的经验作出更准确的诊断。数字化存储还使得远程医疗成为可能。</div>
+<div class="para" label-module="para">5）为医院提供资源积累：对于一个医院而言，典型的病历图像和报告是非常宝贵的资源，而无失真的数字化存储和在专家系统下做出的规范的报告是医院的宝贵的技术积累。</div>
+<div class="para" label-module="para">6）充分利用本院资源和其他医院资源：通过远程医疗，可以促进医院之间的技术交流，同时互补互惠互利，促进双方发展。 <sup>[1]</sup><a class="sup-anchor" name="ref_[1]_1053077">&nbsp;</a>
+</div><div class="anchor-list">
+<a name="3" class="lemma-anchor para-title" ></a>
+<a name="sub1053077_3" class="lemma-anchor " ></a>
+<a name="发展趋势" class="lemma-anchor " ></a>
+</div><div class="para-title level-2" label-module="para-title">
+<h2 class="title-text"><span class="title-prefix">PACS系统</span>发展趋势</h2>
+</div>
+<div class="anchor-list">
+<a name="3_1" class="lemma-anchor para-title" ></a>
+<a name="sub1053077_3_1" class="lemma-anchor " ></a>
+<a name="起源" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">PACS系统</span>起源</h3>
+</div>
+<div class="para" label-module="para">医学影像信息系统最初是从处理放射科的数字图像发展起来的。医学影像信息系统的前身是医学影像存档与通信系统（PACS，Picture Archiving &amp; Communication System），最先推动PACS发展的动力来自于传统的相机厂家。这是因为当数字化浪潮到来的时候，他们首先就意识到这对他们的产品是一个不可逆转的巨大的冲击。 他们对各个厂家的设备连接能力有着最为清楚的了解；但作为传统的机械制造商，他们的计算机技术不够充足，对图像设备及图像处理也不够了解。</div>
+<div class="para" label-module="para">最初，许多设备制造商对开放的网络连接时有很大的抵触情绪。因为他们认为这是意义不大，并且对他们的利益有冲突，更深层的原因在于他们没有意识到，已经落在了信息技术发展的后面；更不了解，信息技术会给医疗影像行业带来什么。</div>
+<div class="para" label-module="para">随着计算机软硬件技术、多媒体技术和通信技术的高速发展以及医学发展需求的不断增长，PACS 标准化进程不断推进，尤其是ACR-NEMA(American College of Radiology &amp; National Electrical Manufactures ′ Association，美国放射学会和美国电器制造商学会)DICOM(digital imaging and communications in medicine ，医学数字成像和通信标准)3.0标准的普遍接受，目前的PACS已扩展到所有的医学图像领域，如心脏病学、病理学、眼科学、皮肤病学、核医学、超声学以及牙科学等。PACS所包含的内容和能力已超越这一名词原来的含义，现在一般提到的PACS普遍是指包含了放射科信息系统（RIS，Radiology Information System）和医学影像存档与通信系统（PACS，Picture Archiving &amp; Communication System）的医学影像信息系统。</div><div class="anchor-list">
+<a name="3_2" class="lemma-anchor para-title" ></a>
+<a name="sub1053077_3_2" class="lemma-anchor " ></a>
+<a name="现状" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">PACS系统</span>现状</h3>
+</div>
+<div class="para" label-module="para">PACS医学影像信息系统的技术发展主要体现在下列几方面：</div>
+<div class="para" label-module="para">1、 内部存储格式标准化为DICOM3.0</div>
+<div class="para" label-module="para">目前几乎所有欧美先进PACS厂家都用正式DICOM3.0文件格式来储存图像。设计旧一点的PACS还用ACR-NEMA2.0或SPI，只有很老的PACS才用到厂家自己定义的格式。用DICOM3.0格式有许多好处，其中一条是今后要更换PACS时不必找旧PACS厂家来转换数据。更重要的是用DICOM3.0文件格式可以随时加影像模式、加减和更改图像文件的内容。而传统的固定字段长度<a target=_blank href="/item/%E5%9B%BE%E5%83%8F%E6%A0%BC%E5%BC%8F">图像格式</a>要添些东西就要全盘改动。</div>
+<div class="para" label-module="para">2、 采纳标准压缩算法来压缩图像文件。</div>
+<div class="para" label-module="para">新一代的PACS大多采用DICOM支持的标准压缩算法，如JPEG、JPEGLossless、JPEG2000、JPEG-LS和Deflate等。厂家用自定义算法来压缩图像的现象越来越少。</div>
+<div class="para" label-module="para">3、三级储存模式(在线、近线和离线)转变成两级(在线和备份)</div>
+<div class="para" label-module="para">目前欧美先进PACS厂家都在推行在线和备份两级储存。备份只是为了防意外，如火灾、地震等。在线用的是硬盘，用RAID(<a target=_blank href="/item/%E5%86%97%E4%BD%99">冗余</a>存储<a target=_blank href="/item/%E7%A3%81%E7%9B%98%E9%98%B5%E5%88%97">磁盘阵列</a>)加NAS(NetworkAttachedStorage)或SAN(StorageAreaNetwork)。而前几年PACS界最常见的是用三级图像储存模式：在线(online)、近线(near-line)和离线(off-line)。新的图像在线存在硬盘上、老一点的图像近线存在网路服务机里、再老一点的图像离线存在MOD或磁带里。</div>
+<div class="para" label-module="para">4、智能化医学影像平台</div>
+<div class="para" label-module="para">智能影像IT平台是医院信息系统的主要发展方向。能否最快获得全部诊断信息是评价影像工作站优劣的唯一标准。syngo .via是全球首个“会思考”的影像工作平台，它改变了传统的影像后处理理念，摒弃以软件为导向的传统CT工作站工作方式，开启以解剖或疾病诊断为导向的全新工作视角，突破性的成为直接服务疾病诊断的影像工作平台。让医生从繁琐的影像后处理中解脱出来，专注于医学诊断。</div>
+<div class="para" label-module="para">西门子syngo.via影像IT平台具有图像预处理功能，影像处理与扫描序列无缝链接，自动进行，无需任何人工干预；它有以疾病为导向的工作流程，自动进入按照疾病或解剖部位定制的工作模块；为每位医生量身定制其所需的诊断工作模块，任意顺序集成相关影像处理软件；带有诊断书签功能，能自动记录医生的每次病变测量、病变标记，方便跨科室医生间的交流和上级医生复核报告。</div>
+<div class="para" label-module="para">由于我国开发和引进PACS系统较晚，目前已经建立并有效运行的PACS系统并不多见（特别是内陆省市）。究其原因主要是标准化程度低、兼容性差，一般为封闭式的专用系统，既不经济、价格也昂贵，配置的硬件不够合理，对工作量大的医院缺乏强大的存储子系统，无法支持数据量巨大的常规放射影像，因此不能真正实现“无片化”管理。多数PACS系统也没有其有效的工作流程和自动化管理功能，也不能向临床诊断提供所需的全部，表现在在线信息少，响应速度慢。对<a target=_blank href="/item/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8">网络安全</a>、保密和符合法律要求方面还不可靠。现有的PACS<a target=_blank href="/item/%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1">系统设计</a>大多数没有考虑技术发展和扩展需要的可能，难于与现有的HIS/RIS整合为一个系统。</div><div class="anchor-list">
+<a name="3_3" class="lemma-anchor para-title" ></a>
+<a name="sub1053077_3_3" class="lemma-anchor " ></a>
+<a name="趋势" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">PACS系统</span>趋势</h3>
+</div>
+<div class="para" label-module="para">各国的PACS系统研究和发展各具特点：美国PACS系统的研究和开发是在政府和厂商的资助下来进行的；欧洲的PACS系统由跨国财团、国家或地区的基金来支持，研究小组倾向于与某个主要厂商合作，着重于PACS建模和仿真及图像处理部件的研究；日本将PACS系统研究和开发列为国家计划，由厂商和大学医院来共同完成，厂商负责PACS系统集成和医院安装，医院负责系统临床评测，而且系统技术指标固定，没给医院研究人员留有多少修改的空间；韩国的PACS系统是在大型私营企业资助下所完成的。</div>
+<div class="para" label-module="para">PACS在国内发展方向重点在：应严格遵守国际技术标准的系统设计和完全开放式的体系结构，基于IHE、DICOM3.0和 HL-7（医疗保健）等国际标准；<a target=_blank href="/item/%E6%B5%8F%E8%A7%88%E5%99%A8">浏览器</a>/服务器结构，应具有良好的兼容性；基于Internet/Intranet技术的网络结构，需支持局域网（LAN）、<a target=_blank href="/item/%E5%B9%BF%E5%9F%9F%E7%BD%91">广域网</a>（WAN），可远程会诊；采用TB级甚至PB级存储子系统，提高响应能力；提供容错、纠错能力及更好的数据安全性和灾难恢复能力，有高性能<a target=_blank href="/item/%E6%95%B0%E6%8D%AE%E5%8E%8B%E7%BC%A9%E6%8A%80%E6%9C%AF">数据压缩技术</a>；系统界面友好，有强大的中文支持能力，易学易用；有语音、图像和数据的传输等多种技术的无缝整合；有完整的系统解决方案，系统利于维护和技术支持。</div><div class="anchor-list">
+<a name="3_4" class="lemma-anchor para-title" ></a>
+<a name="sub1053077_3_4" class="lemma-anchor " ></a>
+<a name="标准化进程" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">PACS系统</span>标准化进程</h3>
+</div>
+<div class="para" label-module="para">上世纪，伴随着科技的发展，医疗水平不断提高，各种新的医疗影像设备不断涌现。50年代超声技术运用于医学领域；70年代CT和80年代MRI先后应用于临床。此后基本上每隔两三年就有新种类的医疗影像设备被发明。越来越多的医疗影像设备一方面提高了诊断的准确程度，另一方面带来了新的问题。那就是如何管理这些医疗影像设备产生的数据，为了在一定范围内获得医疗影像设备产生的数据，保证不同厂家的影像设备的数据能够互连。1982年美国放射学会（ACR）和电器制造协会（NEMA）联合组织了一个研究组（ACR-NEMA数字成像及通信标准委员会），研究如何制定一套统一的通讯标准来保证不同厂家的影像设备能够信息互连。经协商一致后，制定出了一套数字化医学影像的格式标准，即ACR-NEMA 1.0标准，随后在1988年完成了ACR-NEMA 2.0，1993年发布3.0版本正式命名为DICOM3.0(Digital Imaging and Communications in Medicine：医疗数字成像和通信)。但是由于各种原因，此标准直到1997年才慢慢被各医疗影像设备厂商接受。此后标准每年都有大变动，涉及到医学影像的每一个角落，特别是最近刚加入标准的SR(结构化报告)涉及了其他标准不敢涉及的领域。同时，标准还在安全性（隐私和授权）方面下了很大的功夫，添加了TSL/SSL，<a target=_blank href="/item/%E6%95%B0%E5%AD%97%E7%AD%BE%E5%90%8D">数字签名</a>，数字授权，<a target=_blank href="/item/%E6%95%B0%E6%8D%AE%E5%8A%A0%E5%AF%86">数据加密</a>支持。为了支持不同领域的数据交换，还增加了XML支持。总之，DICOM标准日新月异不断向前发展。</div>
+<div class="para" label-module="para">目前，DICOM3.0已为国际医疗影像设备厂商普遍遵循，各大厂商所生产的影像设备均提供DICOM3.0标准通讯协议。</div>
+<div class="para" label-module="para">在系统的输出和输入上必须支持DICOM3.0标准，已成为PACS的国际规范。只有在DICOM3.0标准下建立的PACS才能为用户提供最好的系统连接和扩展功能。</div>
+<div class="para" label-module="para">（一） DICOM3.0</div>
+<div class="para" label-module="para">DICOM 标准的全称是“医学数字成像与通讯”（digital imaging and communication in medicine）标准，是按照NEMA的程序制订和发展的。它实际上是ACR-NEMA的第三个版 本。之所以不叫 ACR-NEMA3.0 而改称 DICOM3.0 是因为：①该标准并不单单是由ACR-NEM的联合委员会制订的，世界上其它一些标准化组织也共同参与了它的制订与发展。这些标准化组织包括欧洲标准化委员会251技术委员会（即 CENTC251），该委员会早已以DICOM为基础，制订出一项与DICOM完全兼容的标准--MEDICOM；还有日本的JIRA（japanese industry radiology Apparatus）和医学信息系统发展中心（medical informationsy stem development center）。这两个组织对DICOM的主要贡献在于提出了利用可移动的媒质（光 盘等）来存贮、交换医学<a target=_blank href="/item/%E5%9B%BE%E5%83%8F">图像</a>的标准。在制订标准过程中，也参考了其它的一些组织，包括IEEE、HL7和ANSI等有关标准。②标准不仅支持医疗放射<a target=_blank href="/item/%E5%9B%BE%E5%83%8F">图像</a>，它是可扩展的，面向所有医学图像，只要简单地增加相应的服务对象类（SOP）即可。扩展到心电图（cardiology、内窥镜（endoscopy）、牙医（dentistry）、病理学（pathology）和其它等类型<a target=_blank href="/item/%E5%9B%BE%E5%83%8F">图像</a>的工作目前正在进行之中。与其前面的1.0和2.0版本一样，DICOM在制订工作一开始就考虑到一些相关标准化组织的研究成果，这不仅仅是为了避免重复性的工作，更重要的是为DICOM提供了重要的背景和技术。由于是面向网络环境的通讯标准，故对 DICOM 影响最大的是国际标准化组织的<a target=_blank href="/item/%E5%BC%80%E6%94%BE%E7%B3%BB%E7%BB%9F%E4%BA%92%E8%81%94">开放系统互联</a>参考模型（ISO-OSI）。</div>
+<div class="para" label-module="para">（二） HL7</div>
+<div class="para" label-module="para">HL7 是在医疗环境中（尤其是在院病人治疗）交换电子数据的标准。1987年5月，在Pennsylvania 大学医院，成立了一个由医疗单位（和用户）、厂家和医疗顾问（consultants）组成的委员会，这个委员会主要负责HL7的工作，目的就是简化不同厂商（尤其包括竞争的厂商）在医疗领域中的计算应用的接口实现。其主要应用领域就是HIS/RIS。</div>
+<div class="para" label-module="para">HL7目前主要是规范在HIS/RIS系统及其设备之间通讯如下信息：病人入院/挂号、出院或转院数据（统称ADT-admissions/registration、discharge、transfer）和查询、病人安排、预订、财务、临床观察、医疗记录、病人的治疗、主文件更新信息等。</div>
+<div class="para" label-module="para">功能规范</div>
+<div class="para" label-module="para">随着信息技术的发展及医院运行机制的转变，<a target=_blank href="/item/%E5%8C%BB%E9%99%A2%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F">医院信息系统</a>已成为现代化医院必不可少的重要基础设施与支撑环境。卫生部为了积极推进信息网络基础设施的发展，加快医院信息化建设和管理，制定了《医院信息系统基本功能规范》。其中，对医学影像信息系统功能设置了以下规范。</div>
+<div class="para" label-module="para">（一） 影像处理</div>
+<div class="para" label-module="para">1．数据接收功能：接收、获取影像设备的DICOM3.0和非DICOM3.0格式的影像数据，支持非DICOM影像设备的影像转化为DICOM3.0标准的数据。</div>
+<div class="para" label-module="para">2．图像处理功能：自定义显示图像的相关信息，如姓名、年龄、设备型号等参数。提供缩放、移动、<a target=_blank href="/item/%E9%95%9C%E5%83%8F">镜像</a>、反相、旋转、滤波、锐化、伪彩、播放、窗宽<a target=_blank href="/item/%E7%AA%97%E4%BD%8D">窗位</a>调节等功能。</div>
+<div class="para" label-module="para">3．测量功能：提供ROI值、长度、角度、面积等数据的测量；以及标注、注释功能。</div>
+<div class="para" label-module="para">4．保存功能：支持JPG、BMP等多种格式存储，以及转化成DIDICOM3.0格式功能。</div>
+<div class="para" label-module="para">5．管理功能：支持<a target=_blank href="/item/%E8%AE%BE%E5%A4%87%E9%97%B4">设备间</a>影像的传递，提供同时调阅病人不同时期、不同影像设备的影像及报告功能。支持DICOM3.0的打印输出，支持海量<a target=_blank href="/item/%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8">数据存储</a>、迁移管理。</div>
+<div class="para" label-module="para">6．<a target=_blank href="/item/%E8%BF%9C%E7%A8%8B%E5%8C%BB%E7%96%97">远程医疗</a>功能：支持影像数据的远程发送和接收。</div>
+<div class="para" label-module="para">7．系统参数设置功能：支持用户自定义窗宽<a target=_blank href="/item/%E7%AA%97%E4%BD%8D">窗位</a>值、放大镜的放大比例等参数。</div>
+<div class="para" label-module="para">（二） 报告管理</div>
+<div class="para" label-module="para">1．预约登记功能。</div>
+<div class="para" label-module="para">2．分诊功能：病人的基本信息、检查设备、检查部位、检查方法、划价收费。</div>
+<div class="para" label-module="para">3．诊断报告功能：生成检查报告，支持二级医生审核。支持典型病例管理。</div>
+<div class="para" label-module="para">4．模板功能；用户可以方便灵活的定义模板，提高报告生成速度。</div>
+<div class="para" label-module="para">5．查询功能：支持姓名、影像号等多种形式的组合查询。</div>
+<div class="para" label-module="para">6．统计功能：可以统计用户工作量、门诊量、胶片量以及费用信息。</div>
+<div class="para" label-module="para">（三） 运行要求</div>
+<div class="para" label-module="para">1．共享<a target=_blank href="/item/%E5%8C%BB%E9%99%A2%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F">医院信息系统</a>中患者信息。</div>
+<div class="para" label-module="para">2．网络运行：数据和信息准确可靠，速度快。</div>
+<div class="para" label-module="para">3．安全管理：设置访问权限，保证数据的安全性。</div>
+<div class="para" label-module="para">4．建立可靠的存储体系及备份方案，实现病人信息的长期保存。</div>
+<div class="para" label-module="para">5．报告系统支持国内外通用医学术语集。</div><div class="anchor-list">
+<a name="4" class="lemma-anchor para-title" ></a>
+<a name="sub1053077_4" class="lemma-anchor " ></a>
+<a name="结构流程" class="lemma-anchor " ></a>
+</div><div class="para-title level-2" label-module="para-title">
+<h2 class="title-text"><span class="title-prefix">PACS系统</span>结构流程</h2>
+</div>
+<div class="anchor-list">
+<a name="4_1" class="lemma-anchor para-title" ></a>
+<a name="sub1053077_4_1" class="lemma-anchor " ></a>
+<a name="结构层次" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">PACS系统</span>结构层次</h3>
+</div>
+<div class="para" label-module="para"><b>（一） 物理层次</b></div>
+<div class="para" label-module="para">从物理<a target=_blank href="/item/%E5%B1%82%E6%AC%A1%E7%BB%93%E6%9E%84">层次结构</a>上，PACS可以分为4层：网络<a target=_blank href="/item/%E7%94%A8%E6%88%B7%E5%B1%82">用户层</a>、<a target=_blank href="/item/%E6%8E%A5%E5%85%A5%E5%B1%82">接入层</a>、核<div class="lemma-picture text-pic layout-right" style="width:220px; float: right;">
+<a class="image-link" nslog-type="9317" 
+			href="/pic/PACS%E7%B3%BB%E7%BB%9F/5929422/0/62667cd0b34645eaa0ec9c88?fr=lemma&ct=single" target="_blank"
+		title="PACS应用层次结构示意图" style="width:220px;height:141px;">
+<img  class="lazy-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRF9fX1AAAA0VQI3QAAAAxJREFUeNpiYAAIMAAAAgABT21Z4QAAAABJRU5ErkJggg==" data-src="https://gss0.bdstatic.com/-4o3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D220/sign=4bf6db4142a7d933bba8e3719d4ad194/86d6277f9e2f07086c7dcb55e924b899a901f26f.jpg"  alt="PACS应用层次结构示意图" style="width:220px;height:141px;"/>
+</a>
+<span class="description">
+PACS应用层次结构示意图
+</span>
+</div>心层、资源提供层，自下而上构成一个"金字塔"结构。其中：网络<a target=_blank href="/item/%E7%94%A8%E6%88%B7%E5%B1%82">用户层</a>是网络中的众多的<a target=_blank href="/item/%E7%BB%88%E7%AB%AF">终端</a>或<a target=_blank href="/item/%E5%B7%A5%E4%BD%9C%E7%AB%99">工作站</a>；<a target=_blank href="/item/%E6%8E%A5%E5%85%A5%E5%B1%82">接入层</a>是指与网络用户层中的终端或工作站相连接，为这些终端或工作站进行<a target=_blank href="/item/%E7%BD%91%E7%BB%9C%E4%BA%92%E8%81%94">网络互联</a>的网络设备集合（如二级<a target=_blank href="/item/%E4%BA%A4%E6%8D%A2%E6%9C%BA">交换机</a>、集线器等）；核心层是指将接入层网络设备汇集起来，形成全网互联的网络设备的集合，如（服务器、<a target=_blank href="/item/%E8%B7%AF%E7%94%B1%E5%99%A8">路由器</a>、<a target=_blank href="/item/%E9%98%B2%E7%81%AB%E5%A2%99">防火墙</a>等）；资源提供层是指PACS网络中的众多的医疗器械终端，如（CT、US、DR等）。</div>
+<div class="para" label-module="para"><b>（二） 应用层次</b></div>
+<div class="para" label-module="para">从应用层次结构上，PACS可以分为3层：MINI-PACS、科室<div class="lemma-picture text-pic layout-right" style="width:220px; float: right;">
+<a class="image-link" nslog-type="9317" 
+			href="/pic/PACS%E7%B3%BB%E7%BB%9F/5929422/0/c9d4cf43ae03057673f05d8a?fr=lemma&ct=single" target="_blank"
+		title="PACS应用层次结构示意图" style="width:220px;height:166px;">
+<img  class="lazy-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRF9fX1AAAA0VQI3QAAAAxJREFUeNpiYAAIMAAAAgABT21Z4QAAAABJRU5ErkJggg==" data-src="https://gss3.bdstatic.com/-Po3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D220/sign=d24167bb9c82d158bf825eb3b00b19d5/0ff41bd5ad6eddc4529255ae39dbb6fd52663369.jpg"  alt="PACS应用层次结构示意图" style="width:220px;height:166px;"/>
+</a>
+<span class="description">
+PACS应用层次结构示意图
+</span>
+</div>级PACS、全院级PACS，自内而外构成一个"内嵌型"结构。其中：MINI-PACS是指针对小型医疗院所或单一科室规划的系统，MINI-PACS系统也必须包含超声波、内窥镜等图文并茂的专业影像报告系统；科室级PACS是指针对中型医院所提出的科室架构，紧密整合院方已有的HIS/RIS系统 ，建立以患者为中心的科室影像中心；全院级PACS主要是针对大型医院所提出的全院性架构，完全实现全院影像科室数字化读片诊断工作流程、实现全院影像科室电子化管理。</div><div class="anchor-list">
+<a name="4_2" class="lemma-anchor para-title" ></a>
+<a name="sub1053077_4_2" class="lemma-anchor " ></a>
+<a name="工作流程" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">PACS系统</span>工作流程</h3>
+</div>
+<div class="para" label-module="para">现有主流PACS厂商，在研发PACS系统之初，都遵从了以下标准流程。<div class="lemma-picture text-pic layout-right" style="width:220px; float: right;">
+<a class="image-link" nslog-type="9317" 
+			href="/pic/PACS%E7%B3%BB%E7%BB%9F/5929422/0/d478a80049b8eee2e950cd96?fr=lemma&ct=single" target="_blank"
+		title="PACS业务流程图" style="width:220px;height:133px;">
+<img  class="lazy-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRF9fX1AAAA0VQI3QAAAAxJREFUeNpiYAAIMAAAAgABT21Z4QAAAABJRU5ErkJggg==" data-src="https://gss3.bdstatic.com/-Po3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D220/sign=f49df31a9e2f07085b052d02d925b865/f31fbe096b63f624182bd8568744ebf81a4ca375.jpg"  alt="PACS业务流程图" style="width:220px;height:133px;"/>
+</a>
+<span class="description">
+PACS业务流程图
+</span>
+</div><b>（一） 检查信息登记输入</b></div>
+<div class="para" label-module="para">前台登记工作站录入患者基本信息及检查申请信息，也可通过检索HIS系统（如果存在HIS并与PACS/RIS融合）进行病人信息自动录入，并对病人进行分诊登记、复诊登记、申请单扫描、申请单打印、分诊安排等工作。</div>
+<div class="para" label-module="para"><b>（二） WorkList服务</b></div>
+<div class="para" label-module="para">病人信息一经录入，其他工作站可直接从PACS系统主数据库中自动调用，无需重新手动录入；具有WorkList服务的医疗影像设备可直接由服务器提取相关病人基本信息列表，不具备WorkList功能影像设备通过医疗影像设备操作台输入病人信息资料或通过分诊台提取登记信息。</div>
+<div class="para" label-module="para"><b>（三） 影像获取</b></div>
+<div class="para" label-module="para">对于标准 DICOM 设备，采集工作站可在检查完成后或检查过程中自动 ( 或手动 ) 将影像转发至PACS主服务器。</div>
+<div class="para" label-module="para"><b>（四） 非DICOM转换</b></div>
+<div class="para" label-module="para">对于非DICOM设备，采集工作站可使用MiVideo DICOM网关收到登记信息后，在检查过程中进行影像采集，采集的影像自动（或由设备操作技师手动转发）转发至PACS主服务器。</div>
+<div class="para" label-module="para"><b>（五） 图像调阅</b></div>
+<div class="para" label-module="para">患者在检查室完成影像检查后，医师可通过阅片室的网络进行影像调阅、浏览及处理，并可进行胶片打印输出后交付患者。</div>
+<div class="para" label-module="para">需要调阅影像时PACS系统自动按照后台设定路径从主服务器<a target=_blank href="/item/%E7%A3%81%E7%9B%98%E9%98%B5%E5%88%97">磁盘阵列</a>或与之连接的前置服务器中调用。</div>
+<div class="para" label-module="para">在<a target=_blank href="/item/%E5%9B%BE%E5%83%8F">图像</a>显示界面，医师一般可以进行一些测量长度、角度、面积等图像后处理，在主流PACS中，除了测量功能外，都会提供缩放、移动、镜像、反相、旋转、滤波、锐化、伪彩、播放、窗宽<a target=_blank href="/item/%E7%AA%97%E4%BD%8D">窗位</a>调节等图像后处理功能。</div>
+<div class="para" label-module="para"><b>（六） 报告编辑</b></div>
+<div class="para" label-module="para">患者完成影像检查后由专业人员对影像质量进行评审，并进行质量分析。完成质量评审控制后的影像，诊断医生可进行影像诊断报告编辑，并根据诊断医师权限，分别进行初诊报告、报告审核工作。在书写报告过程中，可使用诊断常用词语模版，以减少医生键盘输入工作量。诊断报告审核过程中可对修改内容进行修改痕迹保留、可获得临床诊断、详细病史、历史诊断等信息、可将报告存储为典型病例供其它类似诊断使用，供整个科室内学习提高使用。</div>
+<div class="para" label-module="para">审核完成的报告通过打印机进行输出后由医师签字后提交，同时诊断报告上传至主服务器存储备份。打印完成后的报告不能再进行修改，但可以只读方式调阅参考。</div><div class="anchor-list">
+<a name="5" class="lemma-anchor para-title" ></a>
+<a name="sub1053077_5" class="lemma-anchor " ></a>
+<a name="架构数据" class="lemma-anchor " ></a>
+</div><div class="para-title level-2" label-module="para-title">
+<h2 class="title-text"><span class="title-prefix">PACS系统</span>架构数据</h2>
+</div>
+<div class="anchor-list">
+<a name="5_1" class="lemma-anchor para-title" ></a>
+<a name="sub1053077_5_1" class="lemma-anchor " ></a>
+<a name="存储技术架构" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">PACS系统</span>存储技术架构</h3>
+</div>
+<div class="para" label-module="para">PACS有别于HIS、LIS等其它医学信息系统的最重要一点就是：海量<a target=_blank href="/item/%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8">数据存储</a>。合理设计PACS的<a target=_blank href="/item/%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8">数据存储</a>结构，是成功建设PACS的关键。一个大型的医院拥有大批现代化的大型医疗影像设备，每天影像检查产生的数据量多达4个GB左右（未压缩的原始数据），一年数据总量大约1200GB。而随着医院的业务飞速发展和新的影像设备的引进，这一数据量还可能进一步增长。此外，如何提高在线数据<a target=_blank href="/item/%E9%9A%8F%E6%9C%BA%E5%AD%98%E5%8F%96">随机存取</a>的效率也是一个非常关键的问题。</div>
+<div class="para" label-module="para">基于这一原因，现有的PACS医疗影像信息系统提供商多采用分级存储（HSM）的策略，将PACS存储分成在线存储和<a target=_blank href="/item/%E7%A6%BB%E7%BA%BF%E5%AD%98%E5%82%A8">离线存储</a>两级结构。用两种不同性能的存储介质来分别完成高容量和高效率的要求，低速超大容量存储设备（离线<a target=_blank href="/item/%E5%AD%98%E5%82%A8%E6%9C%8D%E5%8A%A1%E5%99%A8">存储服务器</a>）用作永久存储；高速存储设备（SAN）用作在线<a target=_blank href="/item/%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8">数据存储</a>，确保在线数据的极高效存取。对于2年以上的历史数据保存在离线存储设备里，在线存储设备仅保存最近三年的数据。</div><div class="anchor-list">
+<a name="5_2" class="lemma-anchor para-title" ></a>
+<a name="sub1053077_5_2" class="lemma-anchor " ></a>
+<a name="文件格式" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">PACS系统</span>文件格式</h3>
+</div>
+<div class="para" label-module="para">DICOM文件是指按照DICOM标准而存储的医学文件。</div>
+<div class="para" label-module="para">DICOM文件由多个数据集组成。数据集表现了现实世界信息对象的相关属性，如病人姓名、性别、身高和体重等。数据集由<a target=_blank href="/item/%E6%95%B0%E6%8D%AE%E5%85%83%E7%B4%A0">数据元素</a>组成，数据元素包含进行编 码的信息对象属性的值，并由数据元素标签（Tag）唯一标识。<a target=_blank href="/item/%E6%95%B0%E6%8D%AE%E5%85%83%E7%B4%A0">数据元素</a>具有三种结构，其中两种具有类型表示VR（是否出现由传输语法决定），差别在于其长 度的表达方式，另外一种不包括类型表示。类型表示指明了该<a target=_blank href="/item/%E6%95%B0%E6%8D%AE%E5%85%83%E7%B4%A0">数据元素</a>中的数据是哪种类型,它是一个长度为2的字符串,例如一个数据元素的VR为FL，表示该数据元素中存储的<a target=_blank href="/item/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B">数据类型</a>为<a target=_blank href="/item/%E6%B5%AE%E7%82%B9%E5%9E%8B">浮点型</a>。所有<a target=_blank href="/item/%E6%95%B0%E6%8D%AE%E5%85%83%E7%B4%A0">数据元素</a>都包含标签、值长度和数据值体。</div>
+<div class="para" label-module="para">标签是一个16位<a target=_blank href="/item/%E6%97%A0%E7%AC%A6%E5%8F%B7%E6%95%B4%E6%95%B0">无符号整数</a>对,按顺序排列包括组号和元素号。数据集中的<a target=_blank href="/item/%E6%95%B0%E6%8D%AE%E5%85%83%E7%B4%A0">数据元素</a>应按数据元素标签号的递增顺序组织，且在一个数据集中最多出现一次。</div>
+<div class="para" label-module="para">值长度是一个16或32位（取决于显式VR或隐式VR)无符号整数,表明了准确的数据值的长度,按字节数目（为偶数)记录。此长度不包含<a target=_blank href="/item/%E6%95%B0%E6%8D%AE%E5%85%83%E7%B4%A0">数据元素</a>标签、VR、值长度字段。</div>
+<div class="para" label-module="para">数据值体表明了<a target=_blank href="/item/%E6%95%B0%E6%8D%AE%E5%85%83%E7%B4%A0">数据元素</a>的值，其长度为偶数字节,该字段的数据类型是由数据元素的VR所明确定义。<a target=_blank href="/item/%E6%95%B0%E6%8D%AE%E5%85%83%E7%B4%A0">数据元素</a>字段由三个公共字段和一个可选字段组成。</div><div class="anchor-list">
+<a name="5_3" class="lemma-anchor para-title" ></a>
+<a name="sub1053077_5_3" class="lemma-anchor " ></a>
+<a name="数据结构" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">PACS系统</span>数据结构</h3>
+</div>
+<div class="para" label-module="para">以现广东市场上的主流SUPER PACS系统为例。</div>
+<div class="para" label-module="para">目前SUPER PACS<a target=_blank href="/item/%E7%B3%BB%E7%BB%9F%E6%95%B0%E6%8D%AE%E5%BA%93">系统数据库</a>共有36个表，按用途分为：公用表、数字胶片室专用表、放射专用表、超声专用表、远程专用表。其中起到关键性作用的是Patient、Study、Series、Image四个主表。</div>
+<div class="para" label-module="para">Patient表用于存放病人的基本信息，应用范围涉及到SUPER PACS的所有子系统；Study表用于存放病人的检查信息，应用范围涉及到SUPER PACS的所有子系统；Series表用于图象序列表的生成，应用范围涉及到SUPERPACSR DICOM放射系统；Image表用于保存系统图象记录。</div>
+<div class="para" label-module="para">数据库表间关系如右：<div class="lemma-picture text-pic layout-right" style="width:220px; float: right;">
+<a class="image-link" nslog-type="9317" 
+			href="/pic/PACS%E7%B3%BB%E7%BB%9F/5929422/0/a836271293776434f919b877?fr=lemma&ct=single" target="_blank"
+		title="数据库表间关系" style="width:220px;height:122px;">
+<img  class="lazy-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRF9fX1AAAA0VQI3QAAAAxJREFUeNpiYAAIMAAAAgABT21Z4QAAAABJRU5ErkJggg==" data-src="https://gss0.bdstatic.com/94o3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D220/sign=d8b00565baa1cd1101b675228913c8b0/a50f4bfbfbedab642323ac95f736afc379311e15.jpg"  alt="数据库表间关系" style="width:220px;height:122px;"/>
+</a>
+<span class="description">
+数据库表间关系
+</span>
+</div></div>
+<div class="anchor-list">
+<a name="a" class="lemma-anchor a" ></a>
+</div><div class="album-list">
+<div class="header">
+<span class="title">词条图册</span>
+<a class="more-link" href="/pic/PACS%E7%B3%BB%E7%BB%9F/5929422?fr=lemma" target="_blank" nslog-type="10000204">更多图册<em></em></a>
+</div>
+<div class="scroller">
+<div class="list">
+</div>
+</div>
+<div class="footer">
+</div>
+</div>
+<dl class="lemma-reference collapse nslog-area log-set-param" data-nslog-type="2" log-set-param="ext_reference">
+<dt class="reference-title">参考资料</dt>
+<dd class="reference-list-wrap">
+<ul class="reference-list">
+<li class="reference-item " id="reference-[1]-1053077-wrap">
+<span class="index">1.</span>
+<a class="gotop anchor"  name="refIndex_1_1053077" id="refIndex_1_1053077" title="向上跳转" href="#ref_[1]_1053077">&nbsp;&nbsp;</a>
+<a rel="nofollow" href="/redirect/4b05-G8EMqO5PBQbCEQ2Va86c-IcBxlFRAcvBPew8MSuI2nE3bkqqapEOj3K-BnUHff-3hok8s6ErnbL61AD_gplyyU" target="_blank" class="text">PACS系统软件的优点<span class="linkout">&nbsp;</span></a>
+<span class="site">．一丹软件PACS系统</span><span>&#91;引用日期2013-06-21&#93;</span></li></ul>
+</dd>
+</dl>
+<div id="open-tag">
+<div class="open-tag-title">词条标签：</div>
+<dd id="open-tag-item">
+<span class="taglist">
+<a target="_blank" href="/wikitag/taglist?tagId=68031">中国电子学会</a>
+</span>
+，<span class="taglist">
+通信技术
+</span>
+，<span class="taglist">
+科技产品
+</span>
+，<span class="taglist">
+技术
+</span>
+</dd>
+<div class="open-tag-collapse" id="open-tag-collapse"></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="side-content">
+<div class="summary-pic">
+<a href="/pic/PACS%E7%B3%BB%E7%BB%9F/5929422/0/6648d73d121473879e3d6238?fr=lemma&amp;ct=single" target="_blank" nslog-type="10002401">
+<img src="https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/w%3D268%3Bg%3D0/sign=0cdd55d50a7b02080cc938e75ae295ee/9d82d158ccbf6c81e2d15198bc3eb13532fa40df.jpg" />
+<button class="picAlbumBtn"><em></em><span>图集</span></button>
+<div>PACS系统图册</div>
+</a>
+</div>
+<div class="lemmaWgt-promotion-vbaike">
+<div class="promotion_title">V百科<a href="/vbaike#gallary" target="_blank">往期回顾</a></div>
+<div class="promotion_viewport">
+<dl>
+</dl>
+<div class="promotion_viewport_pager"></div>
+</div>
+</div><div class="lemmaWgt-promotion-rightPreciseAd" data-lemmaId="5929422" data-lemmaTitle="PACS系统"></div><div class="lemmaWgt-sideRecommend">
+<a name="zhixinWrap" class="qnAnchor"></a>
+<div class="zhixin-box" id="zhixinWrap" data-source="" data-newLemmaId="5929422">
+</div>
+<form id="zhixinErrorForm" class="hidden" action="https://sp2.baidu.com/-uV1bjeh1BF3odCf/index.php/feedback/zx/getData" target="zhixinSubErr" method="post">
+<input class="js-url" name="fb_html_url" type="hidden" />
+<input class="js-query" name="fb_query" type="hidden" />
+<input class="js-title" name="fb_card_title" type="hidden" />
+<input class="js-content" name="fb_content" type="hidden" />
+<input class="js-souceId" name="fb_source_id" type="hidden" />
+</form>
+<iframe id="zhixinSubErr" name="zhixinSubErr" style="display:none" frameborder="0"></iframe>
+</div><div class="lemmaWgt-promotion-slide">
+<div class="promotion_viewport">
+<dl>
+</dl>
+<div class="promotion_viewport_pager"></div>
+</div>
+</div><div class="lemmaWgt-promotion-rightBigAd">
+</div><div id="side-auth">
+<div id="authEdit" class="side-box">
+<dl>
+<dt class="sidetitle">权威合作编辑</dt>
+<dd class="side-auth-content">
+<div class="side-auth-img">
+<a href="http://www.cast.org.cn/" target="_blank" class="nslog:7075" id="authOrgRightEditPic">
+<img style="display: none" onload="this.style.width = '50px';this.style.display='';" src="https://baike.baidu.com/cms/rc/QQ%E5%9B%BE%E7%89%8720141121003618.jpg" alt="权威编辑" title="权威编辑"/>
+</a>
+</div>
+<div class="side-auth-info">
+<p class="auth-info-name">
+<a href="http://www.cast.org.cn/" nslog-type="7075" target="_blank" id="authOrgRightEdit">“科普中国”百科科学词条编写与应用工作项目</a>
+</p>
+<span id="authDetail">
+“科普中国”是为我国科普信息化建设塑造的全...
+</span>
+</div>
+<div class="clear"></div>
+</dd>
+<dd class="authVersion">
+<span style="">
+<a class="whatIs" align="absmiddle" href="javascript:void(0);"></a><a href=" http://baike.bdimg.com/cms/static/cooperation/content.pdf" target="_blank" nslog-type="36" class="link-toggle" id="whatIsAuthEdit">什么是权威编辑</a>
+</span>
+<span class="divisionLine"></span>
+<a href="/history/PACS%E7%B3%BB%E7%BB%9F/72884358" class="nslog:37" target="_blank" id="authEditVersion">查看编辑版本</a>
+</dd>
+</dl>
+</div>
+<div id="authResource" class="side-box">
+<dl>
+<dt class="sidetitle">资源提供</dt>
+<dd class="side-auth-content">
+<div class="side-auth-img">
+<a href="http://www.cie-info.org.cn/" target="_blank" nslog-type="7096">
+<img style="display: none" onload="this.style.width = '50px';this.style.display='';" src="https://bkssl.bdimg.com/cms/static/cie-logo.jpg" alt="资源合作" title="资源合作"/>
+</a>
+</div>
+<div class="side-auth-info">
+<div class="auth-info-name">
+<a href="http://www.cie-info.org.cn/" class="nslog:7096" target="_blank">中国电子学会</a>
+</div>
+<p>中国电子学会（Chinese Instit...</p>
+<p>提供资源类型：<span style="color: #555555;">内容</span></p>
+</div>
+</dd>
+<dd class="authVersion">
+<span>
+<a class="whatIs" align="absmiddle" href="javascript:void(0);"></a>
+<a href=" http://baike.bdimg.com/cms/static/cooperation/content.pdf" target="_blank" nslog-type="3024" class="link-toggle">什么是资源合作</a>
+</span>
+</dd>
+</dl>
+</div>
+</div><dl class="side-box lemma-statistics">
+<dt class="title">词条统计</dt>
+<dd class="description">
+<ul>
+<li>浏览次数：<span id="j-lemmaStatistics-pv"></span>次</li>
+<li>编辑次数：30次<a href="/historylist/PACS%E7%B3%BB%E7%BB%9F/5929422" class="nslog:1021" target="_blank">历史版本</a></li>
+<li>最近更新：<span class="j-modified-time" style="display:none">2016-08-27</span></li>
+<li>创建者：<a class="show-userCard" data-uid="47826050" title="查看此用户资料" target="_blank" href="http://www.baidu.com/p/jymedical" nslog-type="1022">jymedical</a></li>
+</ul>
+</dd>
+</dl>
+<div class="side-catalog" style="visibility:hidden">
+<div class="side-bar">
+<em class="circle start"></em>
+<em class="circle end"></em>
+</div>
+<div class="catalog-scroller">
+<dl class="catalog-list">
+<dt class="catalog-title level1">
+<em class="pointer"></em>
+<a href="#1" class="title-link">
+<span class="text">
+<span class="title-index">1</span>
+<span class="title-link" nslog-type="10002802">简要介绍</span>
+</span>
+</a>
+</dt>
+<dt class="catalog-title level1">
+<em class="pointer"></em>
+<a href="#2" class="title-link">
+<span class="text">
+<span class="title-index">2</span>
+<span class="title-link" nslog-type="10002802">主要优点</span>
+</span>
+</a>
+</dt>
+<dt class="catalog-title level1">
+<em class="pointer"></em>
+<a href="#3" class="title-link">
+<span class="text">
+<span class="title-index">3</span>
+<span class="title-link" nslog-type="10002802">发展趋势</span>
+</span>
+</a>
+</dt>
+<dd class="catalog-title level2">
+<a href="#3_1" class="title-link">
+<span class="text">
+<span class="title-index">3.1</span>
+<span class="title-link" nslog-type="10002802">起源</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="#3_2" class="title-link">
+<span class="text">
+<span class="title-index">3.2</span>
+<span class="title-link" nslog-type="10002802">现状</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="#3_3" class="title-link">
+<span class="text">
+<span class="title-index">3.3</span>
+<span class="title-link" nslog-type="10002802">趋势</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="#3_4" class="title-link">
+<span class="text">
+<span class="title-index">3.4</span>
+<span class="title-link" nslog-type="10002802">标准化进程</span>
+</span>
+</a>
+</dd>
+<dt class="catalog-title level1">
+<em class="pointer"></em>
+<a href="#4" class="title-link">
+<span class="text">
+<span class="title-index">4</span>
+<span class="title-link" nslog-type="10002802">结构流程</span>
+</span>
+</a>
+</dt>
+<dd class="catalog-title level2">
+<a href="#4_1" class="title-link">
+<span class="text">
+<span class="title-index">4.1</span>
+<span class="title-link" nslog-type="10002802">结构层次</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="#4_2" class="title-link">
+<span class="text">
+<span class="title-index">4.2</span>
+<span class="title-link" nslog-type="10002802">工作流程</span>
+</span>
+</a>
+</dd>
+<dt class="catalog-title level1">
+<em class="pointer"></em>
+<a href="#5" class="title-link">
+<span class="text">
+<span class="title-index">5</span>
+<span class="title-link" nslog-type="10002802">架构数据</span>
+</span>
+</a>
+</dt>
+<dd class="catalog-title level2">
+<a href="#5_1" class="title-link">
+<span class="text">
+<span class="title-index">5.1</span>
+<span class="title-link" nslog-type="10002802">存储技术架构</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="#5_2" class="title-link">
+<span class="text">
+<span class="title-index">5.2</span>
+<span class="title-link" nslog-type="10002802">文件格式</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="#5_3" class="title-link">
+<span class="text">
+<span class="title-index">5.3</span>
+<span class="title-link" nslog-type="10002802">数据结构</span>
+</span>
+</a>
+</dd>
+<a class="arrow" href="javascript:void(0);"></a>
+</dl>
+</div>
+<div class="right-wrap">
+<a class="go-up disable" href="javascript:void(0);"></a>
+<a class="go-down" href="javascript:void(0);"></a>
+</div>
+<div class="bottom-wrap">
+<a class="toggle-button" href="javascript:void(0);"></a>
+<a class="gotop-button" href="javascript:void(0);"></a>
+</div>
+</div>
+<div id="side_box_fengchao" class="fengchao side-box" nslog="area" nslog-type="10000902">
+</div>
+<div id="side_box_unionAd" class="unionAd side-box">
+<div class="union-content"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="after-content">
+<div class="fc-guess-like new" id="fc_guess_like_new">
+<span class="logo-du">
+<em class="cmn-icon cmn-icons cmn-icons_logo-du"></em>
+</span>
+<h6>猜你喜欢</h6>
+<ul class="cmn-clearfix">
+</ul>
+</div>
+<div class="bottom-promotion" id="bottom-promotion">
+<div id="BOTTOM_PRO_AD"></div>
+</div>
+</div>
+</div>
+
+<div class="wgt-footer-main">
+<div class="content">
+<dl class="fresh">
+<dt><em class="cmn-icon cmn-icons cmn-icons_footer-fresh"></em>新手上路</dt>
+<dd>
+<div><a target="_blank" href="/usercenter/tasks#guide">成长任务</a></div>
+<div><a target="_blank" href="/help#main01">编辑入门</a></div>
+<div><a target="_blank" href="/help#main06">编辑规则</a></div>
+<div><a target="_blank" href="/help#main05">百科术语</a></div>
+</dd>
+</dl>
+<dl class="question">
+<dt><em class="cmn-icon cmn-icons cmn-icons_footer-question"></em>我有疑问</dt>
+<dd>
+<div><a target="_blank" href="/wikiui/doubt?lemmaId=5929422&fr=lemma"
+            nslog-type="10070001">我要质疑</a></div>
+<div><a target="_blank" href=" https://ikefu.baidu.com/web/baike" nslog-type="10000003">在线客服</a></div>
+<div><a target="_blank" href="http://tieba.baidu.com/f?ie=utf-8&fr=bks0000&kw=%E7%99%BE%E5%BA%A6%E7%99%BE%E7%A7%91">参加讨论</a></div>
+<div><a target="_blank" href="/feedback">意见反馈</a></div>
+</dd>
+</dl>
+<dl class="suggestion">
+<dt><em class="cmn-icon cmn-icons cmn-icons_footer-suggestion"></em>投诉建议</dt>
+<dd>
+<div><a target="_blank" href="http://tousu.baidu.com/baike#1">举报不良信息</a></div>
+<div><a target="_blank" href="http://tousu.baidu.com/baike#2">未通过词条申诉</a></div>
+<div><a target="_blank" href="http://tousu.baidu.com/baike#4">投诉侵权信息</a></div>
+<div><a target="_blank" href="http://tousu.baidu.com/baike#3">封禁查询与解封</a></div>
+</dd>
+</dl>
+</div>
+<div class="copyright">©2017&nbsp;Baidu&nbsp;<a href="http://www.baidu.com/duty/" target="_blank">使用百度前必读</a>&nbsp;|&nbsp;<a href="http://help.baidu.com/question?prod_en=baike&class=159&id=1047" target="_blank">百科协议</a>&nbsp;|&nbsp;<a href="/operation/cooperation" target="_blank">百度百科合作平台</a>&nbsp;|&nbsp;<span>京ICP证030173号&nbsp;</span><img class="copyright-img" width="13" height="16" src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/copy_rignt_24.png"></div>
+<p class="recordcode"><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000001" target="_blank"><i class="icon-police"></i>京公网安备11000002000001号</a></p>
+</div>
+
+<div class="lemmaWgt-searchHeader">
+<div class="layout cmn-clearfix">
+<div class="wgt-searchbar wgt-searchbar-new wgt-searchbar-simple cmn-clearfix ">
+<div class="logo-container">
+<a class="logo cmn-inline-block" title="到百科首页" href="/">
+<span class="cmn-baike-logo">
+<em class="cmn-icon cmn-icons cmn-icons_logo-bai"></em>
+<em class="cmn-icon cmn-icons cmn-icons_logo-du"></em>
+<em class="cmn-icon cmn-icons cmn-icons_logo-baike"></em>
+</span>
+</a>
+</div>
+<div class="search">
+<div class="form">
+<form id="searchForm" action="/search/word" method="GET" target="_self">
+<input id="query" nslog="normal" nslog-type="10080015" name="word" type="text" autocomplete="off" autocorrect="off" value="pacs" /><button id="search" nslog="normal" nslog-type="10080013" type="button">进入词条</button>
+</form>
+<form id="searchLemmaForm" action="/search" method="GET" target="_self">
+<input id="searchLemmaQuery" name="word" type="hidden" />
+<input name="pn" type="hidden" value="0" />
+<input name="rn" type="hidden" value="0" />
+<input name="enc" type="hidden" value="utf8" />
+</form>
+<ul id="suggestion" class="suggestion">
+<div class="sug"></div>
+<li class="extra">
+<span id="close" nslog="normal" nslog-type="10080016">关闭</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="tool-buttons">
+<a class="toolButtons-edit button j-edit-link" href="javascript:;" nslog-type="10010001"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-hollow"></em>编辑</a>
+<a class="toolButtons-collect button" href="javascript:;" nslog-type="10010002"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_star-hollow"></em><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_star-solid"></em>收藏</a>
+<a class="toolButtons-vote button top-vote" href="javascript:;" nslog-type="10010003"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_zan-hollow"></em><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_zan-solid"></em><span class="j-tool-btn-vote-num">赞</span></a>
+</div>
+<div class="user-info">
+<a class="user-link unlogin" href="javascript:;" nslog-type="10010008" target="_blank">登录</a>
+</div>
+</div></div>
+<div class="new-bdsharebuttonbox new-side-share" id="side-share">
+<span class="title">分享</span>
+<div class="side-border">
+<div class="triangle"></div>
+<a class="share-link bds_qzone"  href="javascript:void(0);" nslog-type="10060101">
+<em class="cmn-icon cmn-icons cmn-icons_logo-qzone"></em>
+</a>
+<a class="share-link bds_tsina" href="javascript:void(0);" nslog-type="10060301">
+<em class="cmn-icon cmn-icons cmn-icons_logo-sina-weibo"></em>
+</a>
+<a class="bds_wechat"  href="javascript:void(0);" nslog-type="10060001">
+<em class="cmn-icon cmn-icons cmn-icons_logo-wechat"></em>
+</a>
+<a class="share-link bds_tqq"  href="javascript:void(0);" nslog-type="10060201">
+<em class="cmn-icon cmn-icons cmn-icons_logo-qq"></em>
+</a>
+</div>
+</div>
+<div class="qrcode-wrapper" id="layer" style="display: none">
+<div class="bd_weixin_popup_header">
+<em class="cmn-icon cmn-icons cmn-icons_close"></em>
+<span>分享到微信朋友圈</span>
+</div>
+<div id="wechat-qrcode-img"></div>
+<div class="bd_weixin_popup_footer">打开微信“扫一扫”即可将网页分享至朋友圈</div>
+</div>
+<div></div><div></div>
+</body><script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-common/pkg/wiki-common_sync_js_0_6be349d.js"></script>
+<script type="text/javascript">require.resourceMap({"res":{"wiki-lemma:widget/lemma_content/mainContent/lemmaRelation/lemmaInsert.js":{"url":"https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/lemmaRelation/lemmaInsert_17d225d.js","pkg":"wiki-lemma:p5","deps":["wiki-common:widget/component/nslog/nslog.js"]},"wiki-lemma:widget/lemma_content/mainContent/lemmaRelation/tangram.js":{"url":"https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/lemmaRelation/tangram_1e4b3aa.js","pkg":"wiki-lemma:p5"},"wiki-lemma:widget/lemma_content/mainContent/lemmaReference/lemmaReferenceTip/lemmaReferenceTip.js":{"url":"https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/lemmaReference/lemmaReferenceTip/lemmaReferenceTip_d50e02d.js","deps":["wiki-common:widget/lib/jquery/jquery.js","wiki-common:widget/util/string.js"]}},"pkg":{"wiki-lemma:p5":{"url":"https://bkssl.bdimg.com/static/wiki-lemma/pkg/wiki-lemma-module-lemmaRelation_15cc52d.js"}}});</script><script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-common/widget/lib/jsmart/PHPJS_3347e0a.js"></script>
+<script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-common/pkg/wiki-common_sync_js_1_803df13.js"></script>
+<script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-common/widget/component/userbar-n/userbar-n_d15fcff.js"></script>
+<script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-common/widget/component/headTabBar/headTabBar_523bfd9.js"></script>
+<script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-common/widget/component/searchbar-n/searchbar_ff0ea9e.js"></script>
+<script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-common/pkg/wiki-common_sync_js_2_40d9277.js"></script>
+<script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-common/pkg/wiki-common_sync_js_5_62d9343.js"></script>
+<script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-lemma/pkg/wiki-lemma_27ab3b6.js"></script>
+<script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/configModule/zhixin/zhixin_e6ca52b.js"></script>
+<script type="text/javascript">!function(){  var $ = require('wiki-common:widget/lib/jquery/jquery.js'),
+    userbar = require('wiki-common:widget/component/userbar-n/userbar-n.js');
+    
+  userbar.buildUserbar($('#j-wgt-userbar'), null);
+}();
+!function(){  require('wiki-common:widget/component/headTabBar/headTabBar.js');
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery.js'),
+      initSearchbar = require('wiki-common:widget/component/searchbar-n/searchbar.js');  
+    initSearchbar($('.wgt-searchbar-main'));
+  }();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery.js');
+    var cookie = require('wiki-common:widget/util/cookie.js');
+    if (!cookie.get('baikedeclare')) {
+        $('#J-declare-wrap').css('display', 'block');
+    }
+    $('#J-declare-close').on('click', function () {
+        // 用户关闭后，不再显示，这里暂设过期时间为1年
+        cookie.set('baikedeclare', 'showed', {
+            expires: 365 * 60 * 60 * 24 * 1000,
+            path: '/'
+        });
+        $('#J-declare-wrap').css('display', 'none');
+    });
+}();
+!function(){  var $ = require('wiki-common:widget/lib/jquery/jquery.js');
+
+  var timer = '';
+
+  $('.wgt-navbar').on('mouseenter', 'dl', function() {
+  clearTimeout(timer);
+  timer = setTimeout(function() {
+  $('.wgt-navbar').addClass('wgt-navbar-hover');
+}, 300);
+}).on('mouseleave', function() {
+clearTimeout(timer);
+$('.wgt-navbar').removeClass('wgt-navbar-hover');
+}).on('click', 'a', function() {
+clearTimeout(timer);
+$('.wgt-navbar').removeClass('wgt-navbar-hover');
+});
+}();
+!function(){                var $ = require('wiki-common:widget/lib/jquery/jquery.js');
+                var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck.js');
+
+                // 展现策略
+                rightCheck.editView('5929422', function(res) {
+                    if (!res.errno) {
+                        if (res.data.edit) {
+                            $('.lemmaWgt-lemmaTitle .add-subLemma').css('display', 'inline-block');
+                            $('.top-tool .add-sub-icon').css('display', 'inline-block');
+                        }
+                    } else {
+                        if ('') {
+                            $('.lemmaWgt-lemmaTitle .add-subLemma').css('display', 'inline-block');
+                            $('.top-tool .add-sub-icon').css('display', 'inline-block');
+                        }
+                    }
+                });
+                require('wiki-lemma:widget/basicElement/addSub/addSub.js')({                    lemmaId: '5929422',                    lemmaTitle: 'PACS系统',                    lemmaDesc: '',                    versionId: '112056537',                    subLemmaId: '1053077'                });
+            }();
+!function(){        var $ = require('wiki-common:widget/lib/jquery/jquery.js');
+        var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck.js');
+
+        // 展现策略
+        rightCheck.editView('5929422', function(res) {
+            if (!res.errno) {
+                if (res.data.divide) {
+                    $('.top-tool .split-icon').css('display', 'block');
+                }
+            }
+        });
+    }();
+!function(){    var nslog = require('wiki-common:widget/component/nslog/nslog.js');
+	require.async("wiki-lemma:widget/basicElement/collect/collect.js",function(collect){
+		collect({
+            newLemmaId:"5929422",
+			lemmaId:"1053077",
+			subLemmaId:"1053077"
+		});
+	});
+}();
+!function(){    require.async("wiki-lemma:widget/basicElement/topShare/topShare.js",function(topShare){
+        topShare({
+            newLemmaId: '5929422'
+        });
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery.js');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck.js');
+
+    // 展现策略
+    rightCheck.editView('5929422', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.lemmaWgt-lemmaTitle .edit-lemma').css('display', 'inline-block');
+                // 编辑和申请本人实名验证保证同一行展示
+                if ($('.lemmaWgt-lemmaTitle .personal').length > 0) {
+                  if ($('.lemmaWgt-lemmaTitle .edit-lemma').offset().left > $('.lemmaWgt-lemmaTitle .personal').offset().left) {
+                    $('.lemmaWgt-lemmaTitle .edit-lemma').before('<br/><br/>');
+                  }
+                }
+            } else {
+                $('.lemmaWgt-lemmaTitle .lock-lemma').show();
+                // 锁定和申请本人实名验证保证同一行展示
+                if ($('.lemmaWgt-lemmaTitle .personal').length > 0) {
+                  if ($('.lemmaWgt-lemmaTitle .lock-lemma').offset().left > $('.lemmaWgt-lemmaTitle .personal').offset().left) {
+                    $('.lemmaWgt-lemmaTitle .lock-lemma').before('<br/><br/>');
+                  }
+                }
+            }
+        } else {
+            if ('') {
+                $('.lemmaWgt-lemmaTitle .edit-lemma').css('display', 'inline-block');
+                // 编辑和申请本人实名验证保证同一行展示
+                if ($('.lemmaWgt-lemmaTitle .personal').length > 0) {
+                  if ($('.lemmaWgt-lemmaTitle .edit-lemma').offset().left > $('.lemmaWgt-lemmaTitle .personal').offset().left) {
+                    $('.lemmaWgt-lemmaTitle .edit-lemma').before('<br/><br/>');
+                  }
+                }
+            } else {
+                $('.lemmaWgt-lemmaTitle .lock-lemma').show();
+                // 锁定和申请本人实名验证保证同一行展示
+                if ($('.lemmaWgt-lemmaTitle .personal').length > 0) {
+                  if ($('.lemmaWgt-lemmaTitle .lock-lemma').offset().left > $('.lemmaWgt-lemmaTitle .personal').offset().left) {
+                    $('.lemmaWgt-lemmaTitle .lock-lemma').before('<br/><br/>');
+                  }
+                }
+            }
+        }
+    });
+}();
+!function(){	require('wiki-lemma:widget/lemma_content/mainContent/basicInfo/basicInfo.js')();
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery.js');
+    var nslog = require('wiki-common:widget/component/nslog/nslog.js');
+    nslog(10002701);
+    $('.lemmaWgt-lemmaCatalog a').on('click', function () {
+           nslog(10002702);
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery.js');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck.js');
+
+    // 展现策略
+    rightCheck.editView('5929422', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery.js');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck.js');
+
+    // 展现策略
+    rightCheck.editView('5929422', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery.js');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck.js');
+
+    // 展现策略
+    rightCheck.editView('5929422', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery.js');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck.js');
+
+    // 展现策略
+    rightCheck.editView('5929422', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery.js');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck.js');
+
+    // 展现策略
+    rightCheck.editView('5929422', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery.js');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck.js');
+
+    // 展现策略
+    rightCheck.editView('5929422', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery.js');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck.js');
+
+    // 展现策略
+    rightCheck.editView('5929422', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery.js');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck.js');
+
+    // 展现策略
+    rightCheck.editView('5929422', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery.js');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck.js');
+
+    // 展现策略
+    rightCheck.editView('5929422', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery.js');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck.js');
+
+    // 展现策略
+    rightCheck.editView('5929422', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery.js');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck.js');
+
+    // 展现策略
+    rightCheck.editView('5929422', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery.js');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck.js');
+
+    // 展现策略
+    rightCheck.editView('5929422', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery.js');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck.js');
+
+    // 展现策略
+    rightCheck.editView('5929422', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery.js');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck.js');
+
+    // 展现策略
+    rightCheck.editView('5929422', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){	require.async(["wiki-common:widget/lib/jquery/jquery.js", "wiki-lemma:widget/lemma_content/mainContent/albumList/albumList.js", "wiki-common:widget/component/nslog/nslog.js"],function($,AlbumList,nslog){
+		var list=new AlbumList({
+			newLemmaId:"5929422",
+			lemmaTitle:"PACS系统",
+			lemmaId:"1053077",
+			subLemmaId:"1053077",
+			data:[{"coverpic":"6648d73d121473879e3d6238","width":140,"height":101,"desc":"\u8bcd\u6761\u56fe\u7247","total":6,"coverurl":"https:\/\/gss2.bdstatic.com\/9fo3dSag_xI4khGkpoWK1HF6hhy\/baike\/s%3D235\/sign=43e4f04e7bec54e745ec1d1d8c399bfd\/9d82d158ccbf6c81e2d15198bc3eb13532fa40df.jpg"}]
+		});
+		!!window.ScriptLazyLoad && window.ScriptLazyLoad.regist({
+			dom:$('.album-list'),
+			loadFunc:function(){
+				list.load();
+				nslog(1258);
+			},
+			distance:500
+		});
+	});
+}();
+!function(){		require.async(["wiki-lemma:widget/lemma_content/mainContent/lemmaReference/lemmaReference.js", "wiki-lemma:widget/lemma_content/mainContent/lemmaReference/lemmaReferenceTip/lemmaReferenceTip.js"],function(Reference,ReferenceTip){
+			new Reference({
+				subLemmaId:"1053077"
+			});
+			new ReferenceTip({
+				subLemmaId:"1053077"
+			});
+		});
+	}();
+!function(){        require.async("wiki-common:widget/lib/jquery/jquery.js",function($){
+            function openTagToggle(node) {
+                if ($(node).hasClass("collapse")) {
+                    $(node).removeClass("collapse");
+                    $("#open-tag").css("height", '22px');
+                } else {
+                    $(node).addClass("collapse");
+                    $("#open-tag").css("height", $("#open-tag-item").css("height"));
+                }
+            }
+            if (parseInt($("#open-tag-item").css("height")) <= 30) {
+                $('#open-tag-collapse').hide();
+            }
+            $("#open-tag-collapse").on("click", function () {
+                openTagToggle($("#open-tag")[0]);
+            });
+        });
+    }();
+!function(){        require('wiki-lemma:widget/lemma_content/configModule/zhixin/zhixin.js')(
+            5929422,
+            'PACS系统'
+        );
+    }();
+!function(){    require.async("wiki-lemma:widget/lemma_content/mainContent/lemmaStatistics/lemmaStatistics.js",function(init){
+        init({
+            newLemmaIdEnc:"624e65acbf1e4488571334df"
+        });
+    });
+}();
+!function(){	require.async("wiki-lemma:widget/lemma_content/mainContent/sideCatalog/sideCatalog.js",function(SideCatalog){
+		new SideCatalog();
+	});
+}();
+!function(){        require.async(["wiki-lemma:widget/promotion/fengchao/fengchao.js", "wiki-lemma:widget/promotion/unionAd/unionAd.js"], function (init, unionAd) {
+            init({
+                newLemmaId: "5929422",
+                lemmaTitle: "PACS系统",
+                encodeLemmaTitle: "PACS%CF%B5%CD%B3",
+                adManager: {"wapRelatedBusiness":1}
+            }, {
+                errFn: unionAd,
+                dom: $('#side_box_unionAd')
+            });
+        });
+    }();
+!function(){        require.async('wiki-lemma:widget/promotion/guessLike/guessLike.js', function (app) {
+            app.init({
+                lemmaTitle: 'PACS系统',
+                adManager: {"wapRelatedBusiness":1}
+            });
+        });
+    }();
+!function(){            require.async('wiki-lemma:widget/promotion/bottomAd/bottomAd.js', function (init) {
+                init({
+                    sId: 'BOTTOM_PRO_AD',
+                    adManager: {"wapRelatedBusiness":1}
+                });
+            });
+        }();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery.js');
+    var Dialog = require("wiki-common:widget/ui/dialog/dialog.js");
+    var userLogin = require('wiki-common:widget/component/userLogin/userLogin.js');
+    var unameFiller = require('wiki-common:widget/component/unameFiller/unameFiller.js');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck.js');
+
+            var isEnterprise = false;
+        var enterpriseOwnerUserId = 0;
+    
+    var userId = 0;
+    var editUrl = '/edit/' + encodeURIComponent('PACS系统') + '/' + '5929422';
+    var pgcUrl = '/enterprise/editpgc?lemmaId=5929422';
+
+    userLogin.regist({
+        onLogin: function(user) {
+            userId = user ? user.uid : 0;
+        }
+    });
+
+    function gotoEdit(url, isMidNight) {
+        if (isMidNight) {
+            Dialog.alert({
+                title: '编辑提示',
+                subMsg: '晚23:00至次日8:00，因审核系统例行维护，您提交的版本可能需要较长时间才能通过，望您谅解。',
+                onConfirm: function() {
+                    window.location.href = url;
+                }
+            });
+        } else {
+            window.location.href = url;
+        }    
+    }
+
+    function showChoseEditDialog(pgcCallback, ugcCallback) {
+        new Dialog({
+            title: '编辑提示',
+            subMsg: '<p>您已开通企业百科服务，推荐您直接编辑“官方资料”，官方资料仅限企业百科绑定的百科账号修改，其他用户账号不可修改。</p><p>如果您想修改其他网友编辑的普通词条内容，请注意遵守百科百科编辑规则。<p>',
+            btns: [{
+            key: 'pgc',
+            text: '编辑官方资料'
+            }, {
+            style: 'white',
+            text: '修改普通词条',
+            key: 'ugc'
+            }],
+            onBtnClick: function(btnKey){
+                if (btnKey === 'pgc') {
+                    pgcCallback && pgcCallback();
+                } else if (btnKey === 'ugc') {
+                    ugcCallback && ugcCallback();
+                }
+            }
+        }).show();
+    }
+
+    function checkUserLegal(res) {
+        var legal = false;
+        switch (res.errno) {
+            case 100001:
+                userLogin.showLoginPop();
+                break;
+            case 100006:
+                unameFiller.show();
+                break;
+            default:
+                legal = true;
+        }
+        return true;
+    }
+
+    function checkUgc(res, url) {
+        if (res.errno) {
+            switch (res.errno) {
+                case 100005:
+                    alert('对不起，您目前被封禁');
+                    break;
+                case 110001:
+                    alert('对不起，该词条被锁定');
+                    break;
+                case 110007:
+                    alert('对不起，消歧页无法编辑');
+                    break;
+                case 110005:
+                    Dialog.alert({
+                    title: '编辑提示',
+                    mainMsg: '对不起，您暂时没有权限编辑该词条。',
+                    subMsg: '<p>您好，该词条内容已较丰富，现仅对百科等级达到<b>四级</b>且通过率达到<b>85%</b>的科友开放编辑。</p><p>当您通过努力达到以上要求，就可以参与编辑该词条了。</p><p><img src="https://bkssl.bdimg.com/img/baike/usercenter/growuptask/star.gif" class="star" />参加<a target="_blank" href="/usercenter#guide">成长任务</a>，更快掌握百科编辑技巧，加速升级！</p>'
+                    });
+                    break;
+                case 110008:
+                    Dialog.alert({
+                    title: '编辑提示',
+                    mainMsg: '对不起，您暂时没有权限编辑该词条。',
+                    subMsg: '<p>您好，该词条内容已较丰富，现仅对百科等级达到<b>六级</b>且通过率达到<b>85%</b>的科友开放编辑。</p><p>当您通过努力达到以上要求，就可以参与编辑该词条了。</p><p><img src="https://bkssl.bdimg.com/img/baike/usercenter/growuptask/star.gif" class="star" />参加<a target="_blank" href="/usercenter#guide">成长任务</a>，更快掌握百科编辑技巧，加速升级！</p>'
+                    });
+                    break;
+                case 470001:
+                    alert('系统错误，请刷新重试');
+                    break;
+            }
+        } else {
+            if (!res.data.right.noAudit) {
+                Dialog.alert({
+                    title: '编辑提示',
+                    subMsg: '很抱歉，该词条有其他用户编辑的版本正在提交，您暂时无法编辑。<br/>百科建议您晚些时候再编辑该词条，或者尝试编辑其他的词条。'
+                });
+                return;
+            }
+            gotoEdit(url, res.data.notice.isMidNight);
+        }
+    }
+
+    $(document.body).on('click', '.j-edit-link', function() {
+        var dl = $(this).attr('data-edit-dl');
+        if (dl) {
+            var url = editUrl + '?dl=' + dl;
+        } else {
+            var url = editUrl;
+        }
+
+        rightCheck.preeditCheck('5929422', 'PACS系统', 'PACS系统', '112056537', function(res) {
+            if (!checkUserLegal(res)) {
+                return;
+            }
+            if (isEnterprise && enterpriseOwnerUserId === userId) {
+                showChoseEditDialog(function() {
+                    location.href = pgcUrl;
+                }, function() {
+                    checkUgc(res, url);
+                });
+            } else {
+                checkUgc(res, url);
+            }
+        });
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery.js'),
+      initSearchbar = require('wiki-common:widget/component/searchbar-n/searchbar.js');  
+    initSearchbar($('.wgt-searchbar-simple'));
+  }();
+!function(){    require.async("wiki-lemma:widget/tools/searchHeader/toolButtons-n/toolButtons.js",function(init){
+        init({
+            lemmaId:"1053077",
+            subLemmaId:"1053077",
+            newLemmaId:"5929422"
+        });
+    });
+}();
+!function(){    require('wiki-lemma:widget/tools/searchHeader/toolButtons-n/userInfo.js')();
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery.js'),
+      animation = require('wiki-common:widget/util/animation.js'),
+      nslog = require('wiki-common:widget/component/nslog/nslog.js'),
+      initSearchbar = require('wiki-common:widget/component/searchbar/searchbar.js');
+
+    var isFadeIn = false,
+        isFadeOut = false;
+
+    var fadeInAni, fadeOutAni;
+
+    $(window).on('scroll', function(e) {
+        var scrollTop = $(this).scrollTop();
+
+        if (scrollTop > 200 && !isFadeIn && $('.lemmaWgt-searchHeader').css('display') == 'none') {
+            fadeOutAni && fadeOutAni.stop();
+            fadeInAni = animation({
+                duration: 200,
+                easing: 'linear',
+                onStart: function() {
+                    isFadeOut = false;
+                    isFadeIn = true;
+                    $('.lemmaWgt-searchHeader').css('display', 'block');
+                },
+                onStep: function(progress) {
+                    $('.lemmaWgt-searchHeader').css('opacity', progress)
+                },
+                onComplete: function(progress) {
+                    isFadeIn = false;
+                    nslog(10010007);
+                }
+            });
+        } else if (scrollTop <= 200 && !isFadeOut && $('.lemmaWgt-searchHeader').css('display') == 'block') {
+            fadeInAni && fadeInAni.stop();
+            fadeOutAni = animation({
+                duration: 300,
+                easing: 'linear',
+                onStart: function() {
+                    $('.lemmaWgt-searchHeader #suggestion').hide();
+                    isFadeIn = false;
+                    isFadeOut = true;
+                },
+                onStep: function(progress) {
+                    $('.lemmaWgt-searchHeader').css('opacity', 1 - progress);
+                },
+                onComplete: function(progress) {
+                    isFadeOut = false;
+                    $('.lemmaWgt-searchHeader').css('display', 'none');
+                }
+            });
+        }
+    });
+}();
+!function(){    require('wiki-lemma:widget/tools/newSideShare/qzopensl.js');
+    require.async("wiki-lemma:widget/tools/newSideShare/taskSideShare.js",function(taskShare){
+        taskShare.init({
+            title: 'PACS系统',
+            desc: "PACS\u7cfb\u7edf\u662fPicture Archiving and Communication Systems\u7684\u7f29\u5199\uff0c\u610f\u4e3a\u5f71\u50cf\u5f52\u6863\u548c\u901a\u4fe1\u7cfb\u7edf\u3002\u5b83\u662f\u5e94\u7528\u5728\u533b\u9662\u5f71\u50cf\u79d1\u5ba4\u7684\u7cfb\u7edf\uff0c\u4e3b\u8981\u7684\u4efb\u52a1\u5c31\u662f\u628a\u65e5\u5e38\u4ea7\u751f\u7684\u5404\u79cd\u533b\u5b66\u5f71\u50cf\uff08\u5305\u62ec\u6838\u78c1\uff0cCT\uff0c\u8d85\u58f0\uff0c\u5404\u79cdX\u5149\u673a\uff0c\u5404\u79cd\u7ea2\u5916\u4eea\u3001\u663e\u5fae\u4eea\u7b49\u8bbe\u5907\u4ea7\u751f\u7684\u56fe\u50cf\uff09\u901a\u8fc7\u5404\u79cd\u63a5\u53e3\uff08\u6a21\u62df\uff0cDICOM\uff0c\u7f51\u7edc\uff09\u4ee5\u6570\u5b57\u5316\u7684\u65b9\u5f0f\u6d77\u91cf\u4fdd\u5b58\u8d77\u6765\uff0c\u5f53",
+            pic: 'https:\/\/gss2.bdstatic.com\/9fo3dSag_xI4khGkpoWK1HF6hhy\/baike\/w%3D268\/sign=f98b0782d562853592e0d527a8ee76f2\/9d82d158ccbf6c81e2d15198bc3eb13532fa40df.jpg',
+            url: '',
+            qqPic: 'https:\/\/gss2.bdstatic.com\/9fo3dSag_xI4khGkpoWK1HF6hhy\/baike\/pic\/item\/9d82d158ccbf6c81e2d15198bc3eb13532fa40df.jpg',
+            newLemmaId: '5929422',
+            lemmaTitle: 'PACS系统'
+        });
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery.js');
+    var nslog = require("wiki-common:widget/component/nslog/nslog.js");
+    var testElem = require('wiki-common:widget/component/testElem/testElem.js');
+    var cmsModuleLoader = require('wiki-common:widget/component/cmsModuleLoader/cmsModuleLoader.js');
+
+    function requireAsync() {
+        require.async('wiki-lemma:widget/tools/announcement/announcement.js');
+    }
+
+    cmsModuleLoader('/api/wikiui/getlemmaconfig', [{
+        name: 'announcement',
+        script: 'wiki-lemma:widget/tools/announcement/announcement.js'
+    }]);
+
+    require.async("wiki-lemma:widget/tools/lazyLoad/lazyLoad.js", function(LazyLoad) {
+        new LazyLoad();
+    });
+
+    require.async(['wiki-common:widget/component/nslog/nslog.js', 'wiki-common:widget/lib/jquery/jquery.js'], function(nslog, $) {
+        nslog().setGlobal({
+            lemmaId: "1053077",
+            newLemmaId: "5929422",
+            subLemmaId: "1053077",
+            lemmaTitle: "PACS系统"
+        });
+
+        // 词条页 pv
+        nslog(9322);
+
+        // 新版头部pv（小流量）
+        if ($('.pc-header-new').length > 0) {
+            nslog(9069);
+        }
+
+        // 链接点击 pv
+        var lemmaPageRegExp = new RegExp(/\/subview\/\d+|\/view\/\d+|\/item\//i);
+        $('body').on('mousedown', 'a', function() {
+            var href = $(this).attr('href');
+            if (href && href.indexOf('/') >= 0 && href.indexOf('#') !== 0) {
+                // 链接点击 pv
+                nslog(10000001);
+                if (lemmaPageRegExp.test(href)) {
+                    // 词条页链接点击 pv
+                    nslog(10000002, window.location.href, {
+                        targetTitle: $(this).text()
+                    });
+                }
+            }
+        });
+
+        /****** 词条页站内流转需求统计 start ******/
+        (function () {
+            // 各种统计配置
+            var circulationLinkCfg = {
+                innerLink: [ // 内链
+                    '.para',
+                    '.lemmaWgt-baseInfo-simple-largeMovie',
+                    '.lemmaWgt-baseInfo-simple-largeStar',
+                    '.basic-info .basicInfo-block',
+                    '.lemma-summary',
+                    '.lemmaWgt-lemmaSummary',
+                    '.view-tip-panel',
+                    '.horizontal-module',
+                    '.lemmaWgt-roleIntroduction',
+                    '.dramaSeries .dramaSerialList',
+                    '.module-music',
+                    '.table-view',
+                    '[log-set-param="table_view"]',
+                    '.list-module',
+                    '.cell-module',
+                    '.baseBox .dl-baseinfo', // 配置后台字段
+                    '.pvBtn-box .leadPVBtnWrapper',
+                    '.drama-actor',
+                    '#staffList',
+                    '.starMovieAndTvplay',
+                    '.main_tab:not(.main_tab-defaultTab)' // 除去词条tab外的tab
+                ],
+                relationTable: '.rs-container-foot', // 关系表
+                peopleRelation: '.star-info-block.relations, .lemmaWgt-focusAndRelation', // 人物关系（明星+普通）
+                moduleActors: '.featureBaseInfo .actors, .lemmaWgt-majorActors', // 主要演员、嘉宾、主持人
+                moduleWorks: '.featureBaseInfo .works, .large-feature .works', // 代表作品
+                moduleQuarterly: '.featureBaseInfo .po_quarterly, .mian_quarterly', // 分季介绍
+                rankStar: '.rank-list.stars-rank', // 明星榜
+                rankDrama: '.drama-rank-list', // 电视剧榜
+                specialTopic: '.special-topic', // 专题模块
+                modDetailTable: '#modDetailTable', // 关系表出图
+                chuizhitu: '.chuizhitu', // 垂直化模块
+                polysemantList: '.polysemantList-wrapper' // 义项切换
+            };
+            /****** 连接统计 ******/
+            function clickNslogFn() {
+                for (var k in circulationLinkCfg) {
+                    if (k === 'innerLink') {
+                        // 词条内链到词条页
+                        var tempArr = circulationLinkCfg[k];
+                        for (var i = 0, l = tempArr.length; i < l; i++) {
+                            tempArr[i] += ' a';
+                        }
+                        var sSelector = tempArr.join(', ');
+
+                        $('body').on('mousedown', sSelector, {key: k},function(e) {
+                            var key = e.data.key;
+                            var href = $(this).attr('href');
+                            var tar = $(this).attr('target') || '';
+                            if (href && href.indexOf('/') >= 0 && href.indexOf('#') !== 0
+                            && tar === '_blank' && lemmaPageRegExp.test(href)) {
+                                // 词条页普通内链点击 pv
+                                nslog(10000004, null ,{division: key});
+                            }
+                        });
+                    } else {
+                        // 模块到词条页链接
+                        $(circulationLinkCfg[k]).on('mousedown', 'a', {key: k}, function (e) {
+                            var key = e.data.key;
+                            var href = $(this).attr('href');
+                            if (href && href.indexOf('#') !== 0 && lemmaPageRegExp.test(href)) {
+                                // 词条页配置模块链接点击 pv
+                                nslog(10000004, null, {division: key});
+                            }
+                        });
+                    }
+                }
+            }
+            // 发起统计请求
+            clickNslogFn();
+
+            /****** 各模块展现量pv ******/
+            function checkModuleIsShow() {
+                var result = [];
+                for (var k in circulationLinkCfg) {
+                    if (k !== 'innerLink' && k !== 'relationTable') {
+                        !!$(circulationLinkCfg[k]).html() && result.push(k);
+                    }
+                }
+                if (result.length > 0) {
+                    nslog(10000005, null, {showModules: result.join(',')});
+                }
+            }
+            checkModuleIsShow();
+
+        })();
+        /****** 词条页站内流转需求统计 end ******/
+
+    });
+
+    // 广告接入 wikiad 统一加载
+    // log 词条页广告被拦截情况（此处 log 请求行为）
+    nslog(70000101, window.location.href, {
+        api: 'lemma-ad',
+        action: 'request'
+    });
+    $.ajax({
+        type: 'GET',
+        url: '/api/wikiad/getsquirrels',
+        data: {
+            lemmaId: 5929422
+        },
+        cache: false,
+        dataType: 'JSON',
+        success: function (res) {
+            // log 词条页广告被拦截情况（此处 log 请求成功）
+            nslog(70000101, window.location.href, {
+                api: 'lemma-ad',
+                action: 'success'
+            });
+
+            if (!res.errno) {
+                if (res.data[5]) {
+                    require.async(['wiki-lemma:widget/promotion/rightPreciseAd/rightPreciseAd.js'], function(rightPreciseAd) {
+                        rightPreciseAd(res.data[5]);
+                        nslog(10002201, location.href, {
+                            adId: res.data[5][0].adId,
+                            adTitle: res.data[5][0].name,
+                            adPos: 5
+                        });
+                    });
+                } else if (res.data[1]) {
+                                        require.async(['wiki-lemma:widget/promotion/vbaike/vbaike.js'], function(vbaike) {
+                        vbaike(res.data[1]);
+                        for(var i in res.data[1]) {
+                            nslog(10002201, location.href, {
+                                adId: res.data[1][i].adId,
+                                adTitle: res.data[1][i].name,
+                                adPos: 1
+                            });
+                        }
+                    });
+                                    }
+                if (res.data[9]) {
+                                        require.async(['wiki-lemma:widget/promotion/rightBigAd/rightBigAd.js'], function(rightBigAd) {
+                        rightBigAd(res.data[9]);
+                            nslog(10002201, location.href, {
+                                adId: res.data[9][0].adId,
+                                adTitle: res.data[9][0].name,
+                                adPos: 9
+                            });
+                    });
+                                    } else if(res.data[2]) {
+                    require.async(['wiki-lemma:widget/promotion/slide/slide.js'], function(slide) {
+                        slide(res.data[2]);
+                        for(var i in res.data[2]) {
+                            nslog(10002201, location.href, {
+                                adId: res.data[2][i].adId,
+                                adTitle: res.data[2][i].name,
+                                adPos: 2
+                            });
+                        }
+                    });
+                }
+                if (res.data[3]) {
+                                        require.async(['wiki-lemma:widget/promotion/topAd/topAd.js'], function(topAd) {
+                        topAd(res.data[3]);
+                        nslog(10002201, location.href, {
+                            adId: res.data[3][0].adId,
+                            adTitle: res.data[3][0].name,
+                            adPos: 3
+                        });
+                    });
+                                    }
+                if (res.data[4]) {
+                                        require.async(['wiki-lemma:widget/promotion/rightAd/rightAd.js'], function(rightAd) {
+                        rightAd(res.data[4]);
+                        nslog(10002201, location.href, {
+                            adId: res.data[4][0].adId,
+                            adTitle: res.data[4][0].name,
+                            adPos: 4
+                        });
+                    });
+                                    }
+                if (res.data[15]) {
+                    require.async(['wiki-lemma:widget/promotion/banner/banner.js'], function(banner) {
+                        banner(res.data[15]);
+                        nslog(10002201, location.href, {
+                            adId: res.data[15][0].adId,
+                            adTitle: res.data[15][0].name,
+                            adPos: 15
+                        });
+                    });
+                }
+                if (res.data[16]) {
+                    require.async(['wiki-lemma:widget/promotion/declaration/declaration.js'], function(declaration) {
+                        declaration(res.data[16]);
+                        nslog(10002201, location.href, {
+                            adId: res.data[16][0].adId,
+                            adTitle: res.data[16][0].name,
+                            adPos: 16
+                        });
+                    })
+                }
+            } else {
+                return;
+            }
+
+            setTimeout(function () {
+                var elemArr = {};
+                res.data[1] && res.data[1].length > 0 && (elemArr['lemma-vbaike-ad'] = $('.lemmaWgt-promotion-vbaike .promotion_viewport a:eq(0) img').get(0));
+                res.data[2] && res.data[2].length > 0 && (elemArr['lemma-slide-ad'] = $('.lemmaWgt-promotion-slide .promotion_viewport a:eq(0) img').get(0));
+                res.data[3] && res.data[3].length > 0 && (elemArr['lemma-navbar-ad'] = {
+                    node: $('.header [nslog-type="10002202"]').get(0),
+                    validations: {
+                        'noBackgroundImage': function() {
+                            return $('.header [nslog-type="10002202"]').css('background-image').indexOf(res.data[3][0].picUrl) < 0
+                        }
+                    }
+                });
+                res.data[4] && res.data[4].length > 0 && (elemArr['lemma-side-ad'] = {
+                    node: $('.right-ad img').get(0),
+                    validations: {
+                        'noBackgroundImage': function() {
+                            return $('.right-ad img').attr('src').indexOf(res.data[4][0].picUrl) < 0
+                        }
+                    }
+                });
+                res.data[15] && res.data[15].length > 0 && (elemArr['lemma-configModule-banner'] = $('.configModuleBanner').get(0));
+                res.data[16] && res.data[16].length > 0 && (elemArr['lemma-configModule-declaration'] = $('.lemmaWgt-declaration').get(0));
+
+                testElem.log(elemArr, 70000102);
+            }, 1000);
+        },
+        error: function () {
+            // log 词条页广告被拦截情况（此处 log 请求失败）
+            nslog(70000101, window.location.href, {
+                api: 'lemma-ad',
+                action: 'error'
+            });
+        }
+    });
+
+    // 设置分享内容
+    window.BKShare.setCommon({
+        bdText: "\u3010PACS\u7cfb\u7edf_\u767e\u5ea6\u767e\u79d1\u3011PACS\u7cfb\u7edf\u662fPicture Archiving and Communication Systems\u7684\u7f29\u5199\uff0c\u610f\u4e3a\u5f71\u50cf\u5f52\u6863\u548c\u901a\u4fe1\u7cfb\u7edf\u3002\u5b83\u662f\u5e94\u7528\u5728\u533b\u9662\u5f71\u50cf\u79d1\u5ba4\u7684\u7cfb\u7edf\uff0c\u4e3b\u8981\u7684\u4efb\u52a1\u5c31\u662f\u628a\u65e5\u5e38\u4ea7\u751f\u7684\u5404\u79cd\u533b\u5b66\u5f71\u50cf\uff08\u5305\u62ec\u6838\u78c1\uff0cCT\uff0c\u8d85\u58f0\uff0c\u5404\u79cdX\u5149\u673a\uff0c\u5404\u79cd\u7ea2\u5916\u4eea\u3001\u663e\u5fae\u4eea\u7b49\u8bbe\u5907\u4ea7\u751f\u7684\u56fe\u50cf\uff09\u901a\u8fc7\u5404\u79cd\u63a5\u53e3\uff08\u6a21\u62df\uff0cDICOM\uff0c\u7f51\u7edc\uff09\u4ee5\u6570\u5b57\u5316\u7684\u65b9\u5f0f\u6d77\u91cf\u4fdd\u5b58\u8d77\u6765\uff0c\u5f53.....\uff08\u5206\u4eab\u81ea@\u767e\u5ea6\u767e\u79d1\uff09",
+        bdDesc: '',
+        bdUrl: 'http:\/\/baike.baidu.com\/subview\/1053077\/1053077.htm',
+        bdPic: '',
+        onBeforeClick: function (){
+            $('.bdshare_dialog_box').hide();
+        }
+    });
+
+    // 底部投诉带入当前页面 url
+    var map = [1, 2, 4, 3];
+    $('.wgt-footer-main .suggestion').find('a').each(function(i) {
+        $(this).attr('href', 'http://tousu.baidu.com/baike/add?word=PACS%E7%B3%BB%E7%BB%9F' + '&&submit_link=' + encodeURIComponent(window.location.href) + '#' + map[i]);
+    });
+
+    // 为超出预设内容的表格添加table-responsive控制
+    $('.main-content').find('table').each(function(index) {
+        var $that = $(this);
+        if ($that.width() > 790) {
+            $that.wrap('<div class="table-responsive"></div>');
+        }
+    });
+}();
+!function(){      require('wiki-common:widget/component/psLink/psLink.js');
+    }();</script>
+<script type="text/javascript">
+  var Hunter = window.Hunter || {};
+  Hunter.userConfig = Hunter.userConfig || [];
+  </script>
+<script type="text/javascript" src="https://gss0.baidu.com/70cFsjip0QIZ8tyhnq/hunter/baike.js?st=17389" defer></script><script type="text/javascript">
+  // DOM Ready时，统计用户可操作时间。
+  alog('speed.set', 'drt', +new Date);
+
+  void function(a,b,c,d,e,f){function g(b){a.attachEvent?a.attachEvent("onload",b,!1):a.addEventListener&&a.addEventListener("load",b)}function h(a,c,d){d=d||15;var e=new Date;e.setTime((new Date).getTime()+1e3*d),b.cookie=a+"="+escape(c)+";path=/;expires="+e.toGMTString()}function i(a){var c=b.cookie.match(new RegExp("(^| )"+a+"=([^;]*)(;|$)"));return null!=c?unescape(c[2]):null}function j(){var a=i("PMS_JT");if(a){h("PMS_JT","",-1);try{a=a.match(/{["']s["']:(\d+),["']r["']:["']([\s\S]+)["']}/),a=a&&a[1]&&a[2]?{s:parseInt(a[1]),r:a[2]}:{}}catch(c){a={}}a.r&&b.referrer.replace(/#.*/,"")!=a.r||alog("speed.set","wt",a.s)}}if(a.alogObjectConfig){var k=a.alogObjectConfig.sample,l=a.alogObjectConfig.rand;d="https:"===a.location.protocol?"https://fex.bdstatic.com"+d:"http://fex.bdstatic.com"+d,k&&l&&l>k||(g(function(){alog("speed.set","lt",+new Date),e=b.createElement(c),e.async=!0,e.src=d+"?v="+~(new Date/864e5)+~(new Date/864e5),f=b.getElementsByTagName(c)[0],f.parentNode.insertBefore(e,f)}),j())}}(window,document,"script","/hunter/alog/dp.min.js");
+</script>
+</html>
