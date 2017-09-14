@@ -5,6 +5,7 @@ import java.io.RandomAccessFile;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Random;
 import java.util.Set;
 
 import javax.print.attribute.HashAttributeSet;
@@ -153,7 +154,7 @@ public class ClassTest {
 		}
 
 	}
-	
+
 	@Test
 	public void catalogExtract() {
 		final String filePath = "resources/data/new癌症肿瘤词条";
@@ -172,7 +173,7 @@ public class ClassTest {
 			Elements catalogs = catalogDiv.getElementsByAttributeValue("nslog-type", "10002802");
 			for (Element element : catalogs) {
 				String catalogStr = element.text();
-				if(catalogStr != null && !"".equals(catalogStr.trim()))
+				if (catalogStr != null && !"".equals(catalogStr.trim()))
 					catalogList.add(catalogStr);
 			}
 		}
@@ -180,4 +181,13 @@ public class ClassTest {
 			System.out.println(string);
 		}
 	}
+
+	@Test
+	public void testmethod() {
+		String str1 = "456";
+		String str2 = "123";
+		str1 += str2 + "2";
+		System.out.println(str1);
+	}
+
 }
