@@ -29,5 +29,14 @@ public interface DCEMapper {
 	@Insert("insert into content (id, title_id, disease_id, value, status, remark1) values(#{id}, #{title_id}, #{disease_id}, #{value}, #{status}, #{remark1})")
 	@Options(useGeneratedKeys = true, keyProperty = "id", keyColumn = "id")
 	public void addContent(Content bean);
+	
+/*	@Select("select * from disease")
+	public List<Disease> getAllDisease();
+	
+	@Select("select * from title where id = #{id}")
+	public List<Title> getTitleById(Integer id);
+	
+	@Select("select * from content where title_id = #{titId} and disease_id = #{disId} and status = 1")
+	public List<Content> getContentByTitIdIdAndDis(Integer titId, Integer disId);*/
 
 }

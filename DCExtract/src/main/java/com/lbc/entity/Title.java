@@ -6,6 +6,16 @@ public class Title {
 	private String title_name;
 	
 	private String remark1;
+	
+	private Integer status;
+
+	public Integer getStatus() {
+		return status;
+	}
+
+	public void setStatus(Integer status) {
+		this.status = status;
+	}
 
 	public Integer getId() {
 		return id;

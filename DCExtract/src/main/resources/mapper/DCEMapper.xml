@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper SYSTEM "../../../../resources/mybatis-3-mapper.dtd" >
+<mapper namespace="com.lbc.mapper.IDECEMapper">
+
+	<select id="getDiseaseByExample" parameterType="com.lbc.entity.Disease"
+		resultType="com.lbc.entity.Disease">
+		select * from disease
+		<where>
+			<if test="id != null">id = #{id}</if>
+			<if test="name != null">and name = #{name}</if>
+			<if test="summary != null">and summary = #{summary}</if>
+			<if test="remark1 != null">and remark1 = #{remark1}</if>
+		</where>
+	</select>
+
+	<select id="getTitleByExample" parameterType="com.lbc.entity.Title"
+		resultType="com.lbc.entity.Title">
+		select * from title
+		<where>
+			<if test="id != null">id = #{id}</if>
+			<if test="title_name != null">and title_name = #{title_name}</if>
+			<if test="status != null">and status = #{status}</if>
+			<if test="remark1 != null">and remark1 = #{remark1}</if>
+		</where>
+	</select>
+
+	<select id="getContentByExample" parameterType="com.lbc.entity.Content"
+		resultType="com.lbc.entity.Content">
+		select * from content
+		<where>
+			<if test="id != null"> id = #{id}</if>
+			<if test="title_id != null">and title_id = #{title_id}</if>
+			<if test="disease_id != null">and disease_id = #{disease_id}</if>
+			<if test="value != null">and value = #{value}</if>
+			<if test="status != null">and status = #{status}</if>
+			<if test="remark1 != null">and remark1 = #{remark1}</if>
+		</where>
+	</select>
+
+	<update id="updateDiseaseByExample" parameterType="com.lbc.entity.Disease">
+		update disease
+		<set>
+			<if test="name != null">name = #{name},</if>
+			<if test="summary != null">summary = #{summary},</if>
+			<if test="remark1 != null">remark1 = #{remark1}</if>
+		</set>
+		where id = #{id}
+	</update>
+
+	<update id="updateTitleByExample" parameterType="com.lbc.entity.Title">
+		update title
+		<set>
+			<if test="title_name != null">title_name = #{title_name},</if>
+			<if test="status != null">status = #{status},</if>
+			<if test="remark1 != null">remark1 = #{remark1}</if>
+		</set>
+		where id = #{id}
+	</update>
+
+	<update id="updateContentByExample" parameterType="com.lbc.entity.Content">
+		update content
+		<set>
+			<if test="title_id != null">title_id = #{title_id},</if>
+			<if test="disease_id != null">disease_id = #{disease_id},</if>
+			<if test="value != null">value = #{value},</if>
+			<if test="status != null">status = #{status},</if>
+			<if test="remark1 != null">remark1 = #{remark1}</if>
+		</set>
+		where id = #{id}
+	</update>
+
+	<select id="getTitIdsOfContentByDisId" parameterType="Integer"
+		resultType="Integer">
+		SELECT
+		title_id AS tid
+		FROM
+		content
+		WHERE
+		disease_id = #{disease_id}
+		GROUP BY
+		title_id
+	</select>
+
+</mapper>

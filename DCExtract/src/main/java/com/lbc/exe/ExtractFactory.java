@@ -47,7 +47,7 @@ public class ExtractFactory {
 	}
 
 	public void doExtract() {
-		final String filePath = "resources/data/new癌症肿瘤词条";
+		final String filePath = "resources/data/new癌症肿瘤词条 ";
 		File filefolder = new File(filePath);
 		File[] files = filefolder.listFiles();
 
@@ -86,7 +86,7 @@ public class ExtractFactory {
 		for (Element element : dlEles) {
 			Elements eleDt = element.select("dt");
 			Elements eleDd = element.select("dd");
-
+			
 			for (int i = 0; i < eleDt.size(); i++) {
 				Title title = new Title();
 				String title_name = null;
@@ -128,8 +128,6 @@ public class ExtractFactory {
 			title = addTitleIfNotExist(title);
 			while (true) {
 				anchorItem = anchorItem.nextElementSibling();
-				if (anchorItem == null)
-					break;
 				if (anchorItem.attr("class").equals("anchor-list"))
 					break;
 				if (anchorItem.attr("id").equals("open-tag") || anchorItem.attr("class").equals("anchor-list")

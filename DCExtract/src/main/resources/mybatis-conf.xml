@@ -25,7 +25,7 @@
 	</environments>
 	<!-- 把User.xml注册到mybatis的配置文件中，User.xml下面配置 -->
 	<mappers>
-		<!-- <mapper resource="com/xiaoxin/demo/dto/User.xml" /> -->
+		<mapper resource="mapper/DCEMapper.xml" />
 		<mapper class="com.lbc.mapper.DCEMapper"/>
 	</mappers>
 </configuration> 
