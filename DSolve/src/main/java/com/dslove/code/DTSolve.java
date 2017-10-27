@@ -228,9 +228,9 @@ public class DTSolve {
 	 */
 	static void contentExtract() {
 		PropertyName currentParentNode = new PropertyName();
-		Elements mianContent = currentDoc.getElementsByAttributeValue("class", "main-content");
-		if (mianContent.size() > 0) {
-			Elements anchorList = mianContent.first().getElementsByAttributeValue("class", "anchor-list");
+		Elements mainContent = currentDoc.getElementsByAttributeValue("class", "main-content");
+		if (mainContent.size() > 0) {
+			Elements anchorList = mainContent.first().getElementsByAttributeValue("class", "anchor-list");
 			for (Element anchorItem : anchorList) { // 提取属性名
 				anchorItem = anchorItem.nextElementSibling();
 				anchorItem.select("span").remove();

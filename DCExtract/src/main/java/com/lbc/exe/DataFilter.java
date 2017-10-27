@@ -1,6 +1,5 @@
 package com.lbc.exe;
 
-import java.io.IOException;
 import java.util.List;
 import java.util.Scanner;
 import java.util.regex.Matcher;
@@ -37,7 +36,7 @@ public class DataFilter {
 					continue;
 				Title title = null;
 				for (Title tit : titList) {
-					if (tit.getId() == tit_id) {
+					if (tit.getId().intValue() == tit_id.intValue()) {
 						title = tit;
 						break;
 					}
@@ -50,7 +49,7 @@ public class DataFilter {
 				System.out.println("******************************");
 				String input;
 				do {
-					System.out.print("【1】添加title标签\n" + "【2】停用content\n" + "【0】继续：");
+					System.out.print("【1】添加title标签  【2】停用content 【0】继续：");
 					input = scanner.nextLine();
 					if (input.equals("1"))
 						addLabel(title);
@@ -63,11 +62,12 @@ public class DataFilter {
 				} while (true);
 			}
 		}
+		System.out.println("done!");
 	}
 
 	public static void addLabel(Title title) {
 		do {
-			System.out.println("【1】检查   【2】症状   【3】治疗  【0】exit：");
+			System.out.print("【1】检查   【2】症状   【3】治疗  【0】exit：");
 			String input = new Scanner(System.in).nextLine();
 			if (input.equals("1")) {
 				title.setRemark1("检查");
